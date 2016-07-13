@@ -1,0 +1,21 @@
+{
+  "name": "lifeiblog",
+  "description": "",
+  "main": "",
+  "authors": [
+    "qingyiqingyi <798816789@qq.com>"
+  ],
+  "license": "MIT",
+  "homepage": "https://github.com/qingyiqingyi/angularjs",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "./public/lib",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "bootstrap": "^3.3.6"
+  }
+}

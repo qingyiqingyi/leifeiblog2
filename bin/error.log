@@ -1,0 +1,1047 @@
+[Wed Jul 13 2016 02:26:48 GMT+0800 (中国标准时间)] /article/detail/57820f003f01e5b817a1335d
+TypeError: F:/上课内容笔记/node/自己的/fouth/weekend/lifeiblog/views/include/header.html:22
+    20|             <a class="navbar-brand" href="/">李飞博客</a>
+    21|         </div>
+ >> 22| 
+    23|         <div class="collapse navbar-collapse" id="menu">
+    24|             <ul class="nav navbar-nav">
+    25|                 <li class="active"><a href="/">首页</a></li>
+
+Cannot read property 'forEach' of undefined
+    at eval (eval at <anonymous> (F:\上课内容笔记\node\自己的\fouth\weekend\lifeiblog\node_modules\ejs\lib\ejs.js:485:12), <anonymous>:63:29)
+    at returnedFn (F:\上课内容笔记\node\自己的\fouth\weekend\lifeiblog\node_modules\ejs\lib\ejs.js:514:17)
+    at View.exports.renderFile [as engine] (F:\上课内容笔记\node\自己的\fouth\weekend\lifeiblog\node_modules\ejs\lib\ejs.js:358:31)
+    at View.render (F:\上课内容笔记\node\自己的\fouth\weekend\lifeiblog\node_modules\express\lib\view.js:126:8)
+    at tryRender (F:\上课内容笔记\node\自己的\fouth\weekend\lifeiblog\node_modules\express\lib\application.js:639:10)
+    at EventEmitter.render (F:\上课内容笔记\node\自己的\fouth\weekend\lifeiblog\node_modules\express\lib\application.js:591:3)
+    at ServerResponse.render (F:\上课内容笔记\node\自己的\fouth\weekend\lifeiblog\node_modules\express\lib\response.js:961:7)
+    at F:\上课内容笔记\node\自己的\fouth\weekend\lifeiblog\routes\article.js:147:13
+    at F:\上课内容笔记\node\自己的\fouth\weekend\node_modules\async\dist\async.js:5293:13
+    at F:\上课内容笔记\node\自己的\fouth\weekend\node_modules\async\dist\async.js:396:20
+    at replenish (F:\上课内容笔记\node\自己的\fouth\weekend\node_modules\async\dist\async.js:858:28)
+    at F:\上课内容笔记\node\自己的\fouth\weekend\node_modules\async\dist\async.js:877:29
+    at F:\上课内容笔记\node\自己的\fouth\weekend\node_modules\async\dist\async.js:840:20
+    at F:\上课内容笔记\node\自己的\fouth\weekend\node_modules\async\dist\async.js:5290:17
+    at F:\上课内容笔记\node\自己的\fouth\weekend\node_modules\async\dist\async.js:339:31
+    at F:\上课内容笔记\node\自己的\fouth\weekend\lifeiblog\routes\article.js:138:13
+    at Query.<anonymous> (F:\上课内容笔记\node\自己的\fouth\weekend\node_modules\mongoose\lib\query.js:2181:28)
+    at F:\上课内容笔记\node\自己的\fouth\weekend\node_modules\kareem\index.js:259:21
+    at F:\上课内容笔记\node\自己的\fouth\weekend\node_modules\kareem\index.js:127:16
+    at _combinedTickCallback (internal/process/next_tick.js:67:7)
+    at process._tickCallback (internal/process/next_tick.js:98:9)
+[Wed Jul 13 2016 02:27:19 GMT+0800 (中国标准时间)] /article/detail/578205c941b45c1c137a7e10
+TypeError: F:/上课内容笔记/node/自己的/fouth/weekend/lifeiblog/views/include/header.html:22
+    20|             <a class="navbar-brand" href="/">李飞博客</a>
+    21|         </div>
+ >> 22| 
+    23|         <div class="collapse navbar-collapse" id="menu">
+    24|             <ul class="nav navbar-nav">
+    25|                 <li class="active"><a href="/">首页</a></li>
+
+Cannot read property 'forEach' of undefined
+    at eval (eval at <anonymous> (F:\上课内容笔记\node\自己的\fouth\weekend\lifeiblog\node_modules\ejs\lib\ejs.js:485:12), <anonymous>:63:29)
+    at returnedFn (F:\上课内容笔记\node\自己的\fouth\weekend\lifeiblog\node_modules\ejs\lib\ejs.js:514:17)
+    at View.exports.renderFile [as engine] (F:\上课内容笔记\node\自己的\fouth\weekend\lifeiblog\node_modules\ejs\lib\ejs.js:358:31)
+    at View.render (F:\上课内容笔记\node\自己的\fouth\weekend\lifeiblog\node_modules\express\lib\view.js:126:8)
+    at tryRender (F:\上课内容笔记\node\自己的\fouth\weekend\lifeiblog\node_modules\express\lib\application.js:639:10)
+    at EventEmitter.render (F:\上课内容笔记\node\自己的\fouth\weekend\lifeiblog\node_modules\express\lib\application.js:591:3)
+    at ServerResponse.render (F:\上课内容笔记\node\自己的\fouth\weekend\lifeiblog\node_modules\express\lib\response.js:961:7)
+    at F:\上课内容笔记\node\自己的\fouth\weekend\lifeiblog\routes\article.js:147:13
+    at F:\上课内容笔记\node\自己的\fouth\weekend\node_modules\async\dist\async.js:5293:13
+    at F:\上课内容笔记\node\自己的\fouth\weekend\node_modules\async\dist\async.js:396:20
+    at replenish (F:\上课内容笔记\node\自己的\fouth\weekend\node_modules\async\dist\async.js:858:28)
+    at F:\上课内容笔记\node\自己的\fouth\weekend\node_modules\async\dist\async.js:877:29
+    at F:\上课内容笔记\node\自己的\fouth\weekend\node_modules\async\dist\async.js:840:20
+    at F:\上课内容笔记\node\自己的\fouth\weekend\node_modules\async\dist\async.js:5290:17
+    at F:\上课内容笔记\node\自己的\fouth\weekend\node_modules\async\dist\async.js:339:31
+    at Query.callback (F:\上课内容笔记\node\自己的\fouth\weekend\node_modules\mongoose\lib\query.js:2060:9)
+    at F:\上课内容笔记\node\自己的\fouth\weekend\node_modules\kareem\index.js:259:21
+    at F:\上课内容笔记\node\自己的\fouth\weekend\node_modules\kareem\index.js:127:16
+    at _combinedTickCallback (internal/process/next_tick.js:67:7)
+    at process._tickCallback (internal/process/next_tick.js:98:9)
+[Wed Jul 13 2016 02:27:46 GMT+0800 (中国标准时间)] /article/detail/578205c941b45c1c137a7e10
+TypeError: F:/上课内容笔记/node/自己的/fouth/weekend/lifeiblog/views/include/header.html:22
+    20|             <a class="navbar-brand" href="/">李飞博客</a>
+    21|         </div>
+ >> 22| 
+    23|         <div class="collapse navbar-collapse" id="menu">
+    24|             <ul class="nav navbar-nav">
+    25|                 <li class="active"><a href="/">首页</a></li>
+
+Cannot read property 'forEach' of undefined
+    at eval (eval at <anonymous> (F:\上课内容笔记\node\自己的\fouth\weekend\lifeiblog\node_modules\ejs\lib\ejs.js:485:12), <anonymous>:63:29)
+    at returnedFn (F:\上课内容笔记\node\自己的\fouth\weekend\lifeiblog\node_modules\ejs\lib\ejs.js:514:17)
+    at View.exports.renderFile [as engine] (F:\上课内容笔记\node\自己的\fouth\weekend\lifeiblog\node_modules\ejs\lib\ejs.js:358:31)
+    at View.render (F:\上课内容笔记\node\自己的\fouth\weekend\lifeiblog\node_modules\express\lib\view.js:126:8)
+    at tryRender (F:\上课内容笔记\node\自己的\fouth\weekend\lifeiblog\node_modules\express\lib\application.js:639:10)
+    at EventEmitter.render (F:\上课内容笔记\node\自己的\fouth\weekend\lifeiblog\node_modules\express\lib\application.js:591:3)
+    at ServerResponse.render (F:\上课内容笔记\node\自己的\fouth\weekend\lifeiblog\node_modules\express\lib\response.js:961:7)
+    at F:\上课内容笔记\node\自己的\fouth\weekend\lifeiblog\routes\article.js:147:13
+    at F:\上课内容笔记\node\自己的\fouth\weekend\node_modules\async\dist\async.js:5293:13
+    at F:\上课内容笔记\node\自己的\fouth\weekend\node_modules\async\dist\async.js:396:20
+    at replenish (F:\上课内容笔记\node\自己的\fouth\weekend\node_modules\async\dist\async.js:858:28)
+    at F:\上课内容笔记\node\自己的\fouth\weekend\node_modules\async\dist\async.js:877:29
+    at F:\上课内容笔记\node\自己的\fouth\weekend\node_modules\async\dist\async.js:840:20
+    at F:\上课内容笔记\node\自己的\fouth\weekend\node_modules\async\dist\async.js:5290:17
+    at F:\上课内容笔记\node\自己的\fouth\weekend\node_modules\async\dist\async.js:339:31
+    at F:\上课内容笔记\node\自己的\fouth\weekend\lifeiblog\routes\article.js:138:13
+    at Query.<anonymous> (F:\上课内容笔记\node\自己的\fouth\weekend\node_modules\mongoose\lib\query.js:2181:28)
+    at F:\上课内容笔记\node\自己的\fouth\weekend\node_modules\kareem\index.js:259:21
+    at F:\上课内容笔记\node\自己的\fouth\weekend\node_modules\kareem\index.js:127:16
+    at _combinedTickCallback (internal/process/next_tick.js:67:7)
+    at process._tickCallback (internal/process/next_tick.js:98:9)
+[Wed Jul 13 2016 02:33:51 GMT+0800 (中国标准时间)] /article/detail/57820f003f01e5b817a1335d
+TypeError: F:/上课内容笔记/node/自己的/fouth/weekend/lifeiblog/views/include/header.html:22
+    20|             <a class="navbar-brand" href="/">李飞博客</a>
+    21|         </div>
+ >> 22| 
+    23|         <div class="collapse navbar-collapse" id="menu">
+    24|             <ul class="nav navbar-nav">
+    25|                 <li class="active"><a href="/">首页</a></li>
+
+Cannot read property 'forEach' of undefined
+    at eval (eval at <anonymous> (F:\上课内容笔记\node\自己的\fouth\weekend\lifeiblog\node_modules\ejs\lib\ejs.js:485:12), <anonymous>:63:29)
+    at returnedFn (F:\上课内容笔记\node\自己的\fouth\weekend\lifeiblog\node_modules\ejs\lib\ejs.js:514:17)
+    at View.exports.renderFile [as engine] (F:\上课内容笔记\node\自己的\fouth\weekend\lifeiblog\node_modules\ejs\lib\ejs.js:358:31)
+    at View.render (F:\上课内容笔记\node\自己的\fouth\weekend\lifeiblog\node_modules\express\lib\view.js:126:8)
+    at tryRender (F:\上课内容笔记\node\自己的\fouth\weekend\lifeiblog\node_modules\express\lib\application.js:639:10)
+    at EventEmitter.render (F:\上课内容笔记\node\自己的\fouth\weekend\lifeiblog\node_modules\express\lib\application.js:591:3)
+    at ServerResponse.render (F:\上课内容笔记\node\自己的\fouth\weekend\lifeiblog\node_modules\express\lib\response.js:961:7)
+    at F:\上课内容笔记\node\自己的\fouth\weekend\lifeiblog\routes\article.js:147:13
+    at F:\上课内容笔记\node\自己的\fouth\weekend\node_modules\async\dist\async.js:5293:13
+    at F:\上课内容笔记\node\自己的\fouth\weekend\node_modules\async\dist\async.js:396:20
+    at replenish (F:\上课内容笔记\node\自己的\fouth\weekend\node_modules\async\dist\async.js:858:28)
+    at F:\上课内容笔记\node\自己的\fouth\weekend\node_modules\async\dist\async.js:877:29
+    at F:\上课内容笔记\node\自己的\fouth\weekend\node_modules\async\dist\async.js:840:20
+    at F:\上课内容笔记\node\自己的\fouth\weekend\node_modules\async\dist\async.js:5290:17
+    at F:\上课内容笔记\node\自己的\fouth\weekend\node_modules\async\dist\async.js:339:31
+    at F:\上课内容笔记\node\自己的\fouth\weekend\lifeiblog\routes\article.js:138:13
+    at Query.<anonymous> (F:\上课内容笔记\node\自己的\fouth\weekend\node_modules\mongoose\lib\query.js:2181:28)
+    at F:\上课内容笔记\node\自己的\fouth\weekend\node_modules\kareem\index.js:259:21
+    at F:\上课内容笔记\node\自己的\fouth\weekend\node_modules\kareem\index.js:127:16
+    at _combinedTickCallback (internal/process/next_tick.js:67:7)
+    at process._tickCallback (internal/process/next_tick.js:98:9)
+[Wed Jul 13 2016 02:34:17 GMT+0800 (中国标准时间)] /article/detail/578205c941b45c1c137a7e10
+TypeError: F:/上课内容笔记/node/自己的/fouth/weekend/lifeiblog/views/include/header.html:22
+    20|             <a class="navbar-brand" href="/">李飞博客</a>
+    21|         </div>
+ >> 22| 
+    23|         <div class="collapse navbar-collapse" id="menu">
+    24|             <ul class="nav navbar-nav">
+    25|                 <li class="active"><a href="/">首页</a></li>
+
+Cannot read property 'forEach' of undefined
+    at eval (eval at <anonymous> (F:\上课内容笔记\node\自己的\fouth\weekend\lifeiblog\node_modules\ejs\lib\ejs.js:485:12), <anonymous>:63:29)
+    at returnedFn (F:\上课内容笔记\node\自己的\fouth\weekend\lifeiblog\node_modules\ejs\lib\ejs.js:514:17)
+    at View.exports.renderFile [as engine] (F:\上课内容笔记\node\自己的\fouth\weekend\lifeiblog\node_modules\ejs\lib\ejs.js:358:31)
+    at View.render (F:\上课内容笔记\node\自己的\fouth\weekend\lifeiblog\node_modules\express\lib\view.js:126:8)
+    at tryRender (F:\上课内容笔记\node\自己的\fouth\weekend\lifeiblog\node_modules\express\lib\application.js:639:10)
+    at EventEmitter.render (F:\上课内容笔记\node\自己的\fouth\weekend\lifeiblog\node_modules\express\lib\application.js:591:3)
+    at ServerResponse.render (F:\上课内容笔记\node\自己的\fouth\weekend\lifeiblog\node_modules\express\lib\response.js:961:7)
+    at F:\上课内容笔记\node\自己的\fouth\weekend\lifeiblog\routes\article.js:147:13
+    at F:\上课内容笔记\node\自己的\fouth\weekend\node_modules\async\dist\async.js:5293:13
+    at F:\上课内容笔记\node\自己的\fouth\weekend\node_modules\async\dist\async.js:396:20
+    at replenish (F:\上课内容笔记\node\自己的\fouth\weekend\node_modules\async\dist\async.js:858:28)
+    at F:\上课内容笔记\node\自己的\fouth\weekend\node_modules\async\dist\async.js:877:29
+    at F:\上课内容笔记\node\自己的\fouth\weekend\node_modules\async\dist\async.js:840:20
+    at F:\上课内容笔记\node\自己的\fouth\weekend\node_modules\async\dist\async.js:5290:17
+    at F:\上课内容笔记\node\自己的\fouth\weekend\node_modules\async\dist\async.js:339:31
+    at Query.callback (F:\上课内容笔记\node\自己的\fouth\weekend\node_modules\mongoose\lib\query.js:2060:9)
+    at F:\上课内容笔记\node\自己的\fouth\weekend\node_modules\kareem\index.js:259:21
+    at F:\上课内容笔记\node\自己的\fouth\weekend\node_modules\kareem\index.js:127:16
+    at _combinedTickCallback (internal/process/next_tick.js:67:7)
+    at process._tickCallback (internal/process/next_tick.js:98:9)
+[Wed Jul 13 2016 02:59:45 GMT+0800 (中国标准时间)] /article/detail/578205c941b45c1c137a7e10
+TypeError: F:/上课内容笔记/node/自己的/fouth/weekend/lifeiblog/views/include/header.html:22
+    20|             <a class="navbar-brand" href="/">李飞博客</a>
+    21|         </div>
+ >> 22| 
+    23|         <div class="collapse navbar-collapse" id="menu">
+    24|             <ul class="nav navbar-nav">
+    25|                 <li class="active"><a href="/">首页</a></li>
+
+Cannot read property 'forEach' of undefined
+    at eval (eval at <anonymous> (F:\上课内容笔记\node\自己的\fouth\weekend\lifeiblog\node_modules\ejs\lib\ejs.js:485:12), <anonymous>:63:29)
+    at returnedFn (F:\上课内容笔记\node\自己的\fouth\weekend\lifeiblog\node_modules\ejs\lib\ejs.js:514:17)
+    at View.exports.renderFile [as engine] (F:\上课内容笔记\node\自己的\fouth\weekend\lifeiblog\node_modules\ejs\lib\ejs.js:358:31)
+    at View.render (F:\上课内容笔记\node\自己的\fouth\weekend\lifeiblog\node_modules\express\lib\view.js:126:8)
+    at tryRender (F:\上课内容笔记\node\自己的\fouth\weekend\lifeiblog\node_modules\express\lib\application.js:639:10)
+    at EventEmitter.render (F:\上课内容笔记\node\自己的\fouth\weekend\lifeiblog\node_modules\express\lib\application.js:591:3)
+    at ServerResponse.render (F:\上课内容笔记\node\自己的\fouth\weekend\lifeiblog\node_modules\express\lib\response.js:961:7)
+    at F:\上课内容笔记\node\自己的\fouth\weekend\lifeiblog\routes\article.js:148:13
+    at F:\上课内容笔记\node\自己的\fouth\weekend\node_modules\async\dist\async.js:5293:13
+    at F:\上课内容笔记\node\自己的\fouth\weekend\node_modules\async\dist\async.js:396:20
+    at replenish (F:\上课内容笔记\node\自己的\fouth\weekend\node_modules\async\dist\async.js:858:28)
+    at F:\上课内容笔记\node\自己的\fouth\weekend\node_modules\async\dist\async.js:877:29
+    at F:\上课内容笔记\node\自己的\fouth\weekend\node_modules\async\dist\async.js:840:20
+    at F:\上课内容笔记\node\自己的\fouth\weekend\node_modules\async\dist\async.js:5290:17
+    at F:\上课内容笔记\node\自己的\fouth\weekend\node_modules\async\dist\async.js:339:31
+    at F:\上课内容笔记\node\自己的\fouth\weekend\lifeiblog\routes\article.js:139:13
+    at Query.<anonymous> (F:\上课内容笔记\node\自己的\fouth\weekend\node_modules\mongoose\lib\query.js:2181:28)
+    at F:\上课内容笔记\node\自己的\fouth\weekend\node_modules\kareem\index.js:259:21
+    at F:\上课内容笔记\node\自己的\fouth\weekend\node_modules\kareem\index.js:127:16
+    at _combinedTickCallback (internal/process/next_tick.js:67:7)
+    at process._tickCallback (internal/process/next_tick.js:98:9)
+[Wed Jul 13 2016 03:02:34 GMT+0800 (中国标准时间)] /article/detail/57853ec357e5443823a3922d
+TypeError: F:/上课内容笔记/node/自己的/fouth/weekend/lifeiblog/views/include/header.html:22
+    20|             <a class="navbar-brand" href="/">李飞博客</a>
+    21|         </div>
+ >> 22| 
+    23|         <div class="collapse navbar-collapse" id="menu">
+    24|             <ul class="nav navbar-nav">
+    25|                 <li class="active"><a href="/">首页</a></li>
+
+Cannot read property 'forEach' of undefined
+    at eval (eval at <anonymous> (F:\上课内容笔记\node\自己的\fouth\weekend\lifeiblog\node_modules\ejs\lib\ejs.js:485:12), <anonymous>:63:29)
+    at returnedFn (F:\上课内容笔记\node\自己的\fouth\weekend\lifeiblog\node_modules\ejs\lib\ejs.js:514:17)
+    at View.exports.renderFile [as engine] (F:\上课内容笔记\node\自己的\fouth\weekend\lifeiblog\node_modules\ejs\lib\ejs.js:358:31)
+    at View.render (F:\上课内容笔记\node\自己的\fouth\weekend\lifeiblog\node_modules\express\lib\view.js:126:8)
+    at tryRender (F:\上课内容笔记\node\自己的\fouth\weekend\lifeiblog\node_modules\express\lib\application.js:639:10)
+    at EventEmitter.render (F:\上课内容笔记\node\自己的\fouth\weekend\lifeiblog\node_modules\express\lib\application.js:591:3)
+    at ServerResponse.render (F:\上课内容笔记\node\自己的\fouth\weekend\lifeiblog\node_modules\express\lib\response.js:961:7)
+    at F:\上课内容笔记\node\自己的\fouth\weekend\lifeiblog\routes\article.js:148:13
+    at F:\上课内容笔记\node\自己的\fouth\weekend\node_modules\async\dist\async.js:5293:13
+    at F:\上课内容笔记\node\自己的\fouth\weekend\node_modules\async\dist\async.js:396:20
+    at replenish (F:\上课内容笔记\node\自己的\fouth\weekend\node_modules\async\dist\async.js:858:28)
+    at F:\上课内容笔记\node\自己的\fouth\weekend\node_modules\async\dist\async.js:877:29
+    at F:\上课内容笔记\node\自己的\fouth\weekend\node_modules\async\dist\async.js:840:20
+    at F:\上课内容笔记\node\自己的\fouth\weekend\node_modules\async\dist\async.js:5290:17
+    at F:\上课内容笔记\node\自己的\fouth\weekend\node_modules\async\dist\async.js:339:31
+    at F:\上课内容笔记\node\自己的\fouth\weekend\lifeiblog\routes\article.js:139:13
+    at Query.<anonymous> (F:\上课内容笔记\node\自己的\fouth\weekend\node_modules\mongoose\lib\query.js:2181:28)
+    at F:\上课内容笔记\node\自己的\fouth\weekend\node_modules\kareem\index.js:259:21
+    at F:\上课内容笔记\node\自己的\fouth\weekend\node_modules\kareem\index.js:127:16
+    at _combinedTickCallback (internal/process/next_tick.js:67:7)
+    at process._tickCallback (internal/process/next_tick.js:98:9)
+[Wed Jul 13 2016 11:57:25 GMT+0800 (中国标准时间)] /article/detail/5781f8793586c24814c3922e
+TypeError: F:/上课内容笔记/node/自己的/fouth/weekend/lifeiblog/views/include/header.html:22
+    20|             <a class="navbar-brand" href="/">李飞博客</a>
+    21|         </div>
+ >> 22| 
+    23|         <div class="collapse navbar-collapse" id="menu">
+    24|             <ul class="nav navbar-nav">
+    25|                 <li class="active"><a href="/">首页</a></li>
+
+Cannot read property 'forEach' of undefined
+    at eval (eval at <anonymous> (F:\上课内容笔记\node\自己的\fouth\weekend\lifeiblog\node_modules\ejs\lib\ejs.js:485:12), <anonymous>:63:29)
+    at returnedFn (F:\上课内容笔记\node\自己的\fouth\weekend\lifeiblog\node_modules\ejs\lib\ejs.js:514:17)
+    at View.exports.renderFile [as engine] (F:\上课内容笔记\node\自己的\fouth\weekend\lifeiblog\node_modules\ejs\lib\ejs.js:358:31)
+    at View.render (F:\上课内容笔记\node\自己的\fouth\weekend\lifeiblog\node_modules\express\lib\view.js:126:8)
+    at tryRender (F:\上课内容笔记\node\自己的\fouth\weekend\lifeiblog\node_modules\express\lib\application.js:639:10)
+    at EventEmitter.render (F:\上课内容笔记\node\自己的\fouth\weekend\lifeiblog\node_modules\express\lib\application.js:591:3)
+    at ServerResponse.render (F:\上课内容笔记\node\自己的\fouth\weekend\lifeiblog\node_modules\express\lib\response.js:961:7)
+    at F:\上课内容笔记\node\自己的\fouth\weekend\lifeiblog\routes\article.js:149:13
+    at F:\上课内容笔记\node\自己的\fouth\weekend\node_modules\async\dist\async.js:5293:13
+    at F:\上课内容笔记\node\自己的\fouth\weekend\node_modules\async\dist\async.js:396:20
+    at replenish (F:\上课内容笔记\node\自己的\fouth\weekend\node_modules\async\dist\async.js:858:28)
+    at F:\上课内容笔记\node\自己的\fouth\weekend\node_modules\async\dist\async.js:877:29
+    at F:\上课内容笔记\node\自己的\fouth\weekend\node_modules\async\dist\async.js:840:20
+    at F:\上课内容笔记\node\自己的\fouth\weekend\node_modules\async\dist\async.js:5290:17
+    at F:\上课内容笔记\node\自己的\fouth\weekend\node_modules\async\dist\async.js:339:31
+    at F:\上课内容笔记\node\自己的\fouth\weekend\lifeiblog\routes\article.js:140:13
+    at Query.<anonymous> (F:\上课内容笔记\node\自己的\fouth\weekend\node_modules\mongoose\lib\query.js:2181:28)
+    at F:\上课内容笔记\node\自己的\fouth\weekend\node_modules\kareem\index.js:259:21
+    at F:\上课内容笔记\node\自己的\fouth\weekend\node_modules\kareem\index.js:127:16
+    at _combinedTickCallback (internal/process/next_tick.js:67:7)
+    at process._tickCallback (internal/process/next_tick.js:98:9)
+[Wed Jul 13 2016 11:58:19 GMT+0800 (中国标准时间)] /article/detail/57820f003f01e5b817a1335d
+TypeError: F:/上课内容笔记/node/自己的/fouth/weekend/lifeiblog/views/include/header.html:22
+    20|             <a class="navbar-brand" href="/">李飞博客</a>
+    21|         </div>
+ >> 22| 
+    23|         <div class="collapse navbar-collapse" id="menu">
+    24|             <ul class="nav navbar-nav">
+    25|                 <li class="active"><a href="/">首页</a></li>
+
+Cannot read property 'forEach' of undefined
+    at eval (eval at <anonymous> (F:\上课内容笔记\node\自己的\fouth\weekend\lifeiblog\node_modules\ejs\lib\ejs.js:485:12), <anonymous>:63:29)
+    at returnedFn (F:\上课内容笔记\node\自己的\fouth\weekend\lifeiblog\node_modules\ejs\lib\ejs.js:514:17)
+    at View.exports.renderFile [as engine] (F:\上课内容笔记\node\自己的\fouth\weekend\lifeiblog\node_modules\ejs\lib\ejs.js:358:31)
+    at View.render (F:\上课内容笔记\node\自己的\fouth\weekend\lifeiblog\node_modules\express\lib\view.js:126:8)
+    at tryRender (F:\上课内容笔记\node\自己的\fouth\weekend\lifeiblog\node_modules\express\lib\application.js:639:10)
+    at EventEmitter.render (F:\上课内容笔记\node\自己的\fouth\weekend\lifeiblog\node_modules\express\lib\application.js:591:3)
+    at ServerResponse.render (F:\上课内容笔记\node\自己的\fouth\weekend\lifeiblog\node_modules\express\lib\response.js:961:7)
+    at F:\上课内容笔记\node\自己的\fouth\weekend\lifeiblog\routes\article.js:149:13
+    at F:\上课内容笔记\node\自己的\fouth\weekend\node_modules\async\dist\async.js:5293:13
+    at F:\上课内容笔记\node\自己的\fouth\weekend\node_modules\async\dist\async.js:396:20
+    at replenish (F:\上课内容笔记\node\自己的\fouth\weekend\node_modules\async\dist\async.js:858:28)
+    at F:\上课内容笔记\node\自己的\fouth\weekend\node_modules\async\dist\async.js:877:29
+    at F:\上课内容笔记\node\自己的\fouth\weekend\node_modules\async\dist\async.js:840:20
+    at F:\上课内容笔记\node\自己的\fouth\weekend\node_modules\async\dist\async.js:5290:17
+    at F:\上课内容笔记\node\自己的\fouth\weekend\node_modules\async\dist\async.js:339:31
+    at F:\上课内容笔记\node\自己的\fouth\weekend\lifeiblog\routes\article.js:140:13
+    at Query.<anonymous> (F:\上课内容笔记\node\自己的\fouth\weekend\node_modules\mongoose\lib\query.js:2181:28)
+    at F:\上课内容笔记\node\自己的\fouth\weekend\node_modules\kareem\index.js:259:21
+    at F:\上课内容笔记\node\自己的\fouth\weekend\node_modules\kareem\index.js:127:16
+    at _combinedTickCallback (internal/process/next_tick.js:67:7)
+    at process._tickCallback (internal/process/next_tick.js:98:9)
+[Wed Jul 13 2016 12:11:22 GMT+0800 (中国标准时间)] /article/detail/57853ec357e5443823a3922d
+TypeError: F:/上课内容笔记/node/自己的/fouth/weekend/lifeiblog/views/include/header.html:22
+    20|             <a class="navbar-brand" href="/">李飞博客</a>
+    21|         </div>
+ >> 22| 
+    23|         <div class="collapse navbar-collapse" id="menu">
+    24|             <ul class="nav navbar-nav">
+    25|                 <li class="active"><a href="/">首页</a></li>
+
+Cannot read property 'forEach' of undefined
+    at eval (eval at <anonymous> (F:\上课内容笔记\node\自己的\fouth\weekend\lifeiblog\node_modules\ejs\lib\ejs.js:485:12), <anonymous>:63:29)
+    at returnedFn (F:\上课内容笔记\node\自己的\fouth\weekend\lifeiblog\node_modules\ejs\lib\ejs.js:514:17)
+    at View.exports.renderFile [as engine] (F:\上课内容笔记\node\自己的\fouth\weekend\lifeiblog\node_modules\ejs\lib\ejs.js:358:31)
+    at View.render (F:\上课内容笔记\node\自己的\fouth\weekend\lifeiblog\node_modules\express\lib\view.js:126:8)
+    at tryRender (F:\上课内容笔记\node\自己的\fouth\weekend\lifeiblog\node_modules\express\lib\application.js:639:10)
+    at EventEmitter.render (F:\上课内容笔记\node\自己的\fouth\weekend\lifeiblog\node_modules\express\lib\application.js:591:3)
+    at ServerResponse.render (F:\上课内容笔记\node\自己的\fouth\weekend\lifeiblog\node_modules\express\lib\response.js:961:7)
+    at F:\上课内容笔记\node\自己的\fouth\weekend\lifeiblog\routes\article.js:149:13
+    at F:\上课内容笔记\node\自己的\fouth\weekend\node_modules\async\dist\async.js:5293:13
+    at F:\上课内容笔记\node\自己的\fouth\weekend\node_modules\async\dist\async.js:396:20
+    at replenish (F:\上课内容笔记\node\自己的\fouth\weekend\node_modules\async\dist\async.js:858:28)
+    at F:\上课内容笔记\node\自己的\fouth\weekend\node_modules\async\dist\async.js:877:29
+    at F:\上课内容笔记\node\自己的\fouth\weekend\node_modules\async\dist\async.js:840:20
+    at F:\上课内容笔记\node\自己的\fouth\weekend\node_modules\async\dist\async.js:5290:17
+    at F:\上课内容笔记\node\自己的\fouth\weekend\node_modules\async\dist\async.js:339:31
+    at F:\上课内容笔记\node\自己的\fouth\weekend\lifeiblog\routes\article.js:140:13
+    at Query.<anonymous> (F:\上课内容笔记\node\自己的\fouth\weekend\node_modules\mongoose\lib\query.js:2181:28)
+    at F:\上课内容笔记\node\自己的\fouth\weekend\node_modules\kareem\index.js:259:21
+    at F:\上课内容笔记\node\自己的\fouth\weekend\node_modules\kareem\index.js:127:16
+    at _combinedTickCallback (internal/process/next_tick.js:67:7)
+    at process._tickCallback (internal/process/next_tick.js:98:9)
+[Wed Jul 13 2016 13:13:52 GMT+0800 (中国标准时间)] /article/detail/57820f003f01e5b817a1335d
+SyntaxError: Unexpected token > in F:\上课内容笔记\node\自己的\fouth\weekend\lifeiblog\views\article\detail.html while compiling ejs
+    at Object.Template.compile (F:\上课内容笔记\node\自己的\fouth\weekend\lifeiblog\node_modules\ejs\lib\ejs.js:485:12)
+    at Object.compile (F:\上课内容笔记\node\自己的\fouth\weekend\lifeiblog\node_modules\ejs\lib\ejs.js:289:16)
+    at handleCache (F:\上课内容笔记\node\自己的\fouth\weekend\lifeiblog\node_modules\ejs\lib\ejs.js:148:16)
+    at View.exports.renderFile [as engine] (F:\上课内容笔记\node\自己的\fouth\weekend\lifeiblog\node_modules\ejs\lib\ejs.js:358:14)
+    at View.render (F:\上课内容笔记\node\自己的\fouth\weekend\lifeiblog\node_modules\express\lib\view.js:126:8)
+    at tryRender (F:\上课内容笔记\node\自己的\fouth\weekend\lifeiblog\node_modules\express\lib\application.js:639:10)
+    at EventEmitter.render (F:\上课内容笔记\node\自己的\fouth\weekend\lifeiblog\node_modules\express\lib\application.js:591:3)
+    at ServerResponse.render (F:\上课内容笔记\node\自己的\fouth\weekend\lifeiblog\node_modules\express\lib\response.js:961:7)
+    at F:\上课内容笔记\node\自己的\fouth\weekend\lifeiblog\routes\article.js:149:13
+    at F:\上课内容笔记\node\自己的\fouth\weekend\node_modules\async\dist\async.js:5293:13
+    at F:\上课内容笔记\node\自己的\fouth\weekend\node_modules\async\dist\async.js:396:20
+    at replenish (F:\上课内容笔记\node\自己的\fouth\weekend\node_modules\async\dist\async.js:858:28)
+    at F:\上课内容笔记\node\自己的\fouth\weekend\node_modules\async\dist\async.js:877:29
+    at F:\上课内容笔记\node\自己的\fouth\weekend\node_modules\async\dist\async.js:840:20
+    at F:\上课内容笔记\node\自己的\fouth\weekend\node_modules\async\dist\async.js:5290:17
+    at F:\上课内容笔记\node\自己的\fouth\weekend\node_modules\async\dist\async.js:339:31
+    at F:\上课内容笔记\node\自己的\fouth\weekend\lifeiblog\routes\article.js:140:13
+    at Query.<anonymous> (F:\上课内容笔记\node\自己的\fouth\weekend\node_modules\mongoose\lib\query.js:2181:28)
+    at F:\上课内容笔记\node\自己的\fouth\weekend\node_modules\kareem\index.js:259:21
+    at F:\上课内容笔记\node\自己的\fouth\weekend\node_modules\kareem\index.js:127:16
+    at _combinedTickCallback (internal/process/next_tick.js:67:7)
+    at process._tickCallback (internal/process/next_tick.js:98:9)
+[Wed Jul 13 2016 13:14:24 GMT+0800 (中国标准时间)] /article/detail/578205c941b45c1c137a7e10
+SyntaxError: Unexpected token > in F:\上课内容笔记\node\自己的\fouth\weekend\lifeiblog\views\article\detail.html while compiling ejs
+    at Object.Template.compile (F:\上课内容笔记\node\自己的\fouth\weekend\lifeiblog\node_modules\ejs\lib\ejs.js:485:12)
+    at Object.compile (F:\上课内容笔记\node\自己的\fouth\weekend\lifeiblog\node_modules\ejs\lib\ejs.js:289:16)
+    at handleCache (F:\上课内容笔记\node\自己的\fouth\weekend\lifeiblog\node_modules\ejs\lib\ejs.js:148:16)
+    at View.exports.renderFile [as engine] (F:\上课内容笔记\node\自己的\fouth\weekend\lifeiblog\node_modules\ejs\lib\ejs.js:358:14)
+    at View.render (F:\上课内容笔记\node\自己的\fouth\weekend\lifeiblog\node_modules\express\lib\view.js:126:8)
+    at tryRender (F:\上课内容笔记\node\自己的\fouth\weekend\lifeiblog\node_modules\express\lib\application.js:639:10)
+    at EventEmitter.render (F:\上课内容笔记\node\自己的\fouth\weekend\lifeiblog\node_modules\express\lib\application.js:591:3)
+    at ServerResponse.render (F:\上课内容笔记\node\自己的\fouth\weekend\lifeiblog\node_modules\express\lib\response.js:961:7)
+    at F:\上课内容笔记\node\自己的\fouth\weekend\lifeiblog\routes\article.js:149:13
+    at F:\上课内容笔记\node\自己的\fouth\weekend\node_modules\async\dist\async.js:5293:13
+    at F:\上课内容笔记\node\自己的\fouth\weekend\node_modules\async\dist\async.js:396:20
+    at replenish (F:\上课内容笔记\node\自己的\fouth\weekend\node_modules\async\dist\async.js:858:28)
+    at F:\上课内容笔记\node\自己的\fouth\weekend\node_modules\async\dist\async.js:877:29
+    at F:\上课内容笔记\node\自己的\fouth\weekend\node_modules\async\dist\async.js:840:20
+    at F:\上课内容笔记\node\自己的\fouth\weekend\node_modules\async\dist\async.js:5290:17
+    at F:\上课内容笔记\node\自己的\fouth\weekend\node_modules\async\dist\async.js:339:31
+    at F:\上课内容笔记\node\自己的\fouth\weekend\lifeiblog\routes\article.js:140:13
+    at Query.<anonymous> (F:\上课内容笔记\node\自己的\fouth\weekend\node_modules\mongoose\lib\query.js:2181:28)
+    at F:\上课内容笔记\node\自己的\fouth\weekend\node_modules\kareem\index.js:259:21
+    at F:\上课内容笔记\node\自己的\fouth\weekend\node_modules\kareem\index.js:127:16
+    at _combinedTickCallback (internal/process/next_tick.js:67:7)
+    at process._tickCallback (internal/process/next_tick.js:98:9)
+[Wed Jul 13 2016 13:14:30 GMT+0800 (中国标准时间)] /article/detail/578205c941b45c1c137a7e10
+SyntaxError: Unexpected token > in F:\上课内容笔记\node\自己的\fouth\weekend\lifeiblog\views\article\detail.html while compiling ejs
+    at Object.Template.compile (F:\上课内容笔记\node\自己的\fouth\weekend\lifeiblog\node_modules\ejs\lib\ejs.js:485:12)
+    at Object.compile (F:\上课内容笔记\node\自己的\fouth\weekend\lifeiblog\node_modules\ejs\lib\ejs.js:289:16)
+    at handleCache (F:\上课内容笔记\node\自己的\fouth\weekend\lifeiblog\node_modules\ejs\lib\ejs.js:148:16)
+    at View.exports.renderFile [as engine] (F:\上课内容笔记\node\自己的\fouth\weekend\lifeiblog\node_modules\ejs\lib\ejs.js:358:14)
+    at View.render (F:\上课内容笔记\node\自己的\fouth\weekend\lifeiblog\node_modules\express\lib\view.js:126:8)
+    at tryRender (F:\上课内容笔记\node\自己的\fouth\weekend\lifeiblog\node_modules\express\lib\application.js:639:10)
+    at EventEmitter.render (F:\上课内容笔记\node\自己的\fouth\weekend\lifeiblog\node_modules\express\lib\application.js:591:3)
+    at ServerResponse.render (F:\上课内容笔记\node\自己的\fouth\weekend\lifeiblog\node_modules\express\lib\response.js:961:7)
+    at F:\上课内容笔记\node\自己的\fouth\weekend\lifeiblog\routes\article.js:149:13
+    at F:\上课内容笔记\node\自己的\fouth\weekend\node_modules\async\dist\async.js:5293:13
+    at F:\上课内容笔记\node\自己的\fouth\weekend\node_modules\async\dist\async.js:396:20
+    at replenish (F:\上课内容笔记\node\自己的\fouth\weekend\node_modules\async\dist\async.js:858:28)
+    at F:\上课内容笔记\node\自己的\fouth\weekend\node_modules\async\dist\async.js:877:29
+    at F:\上课内容笔记\node\自己的\fouth\weekend\node_modules\async\dist\async.js:840:20
+    at F:\上课内容笔记\node\自己的\fouth\weekend\node_modules\async\dist\async.js:5290:17
+    at F:\上课内容笔记\node\自己的\fouth\weekend\node_modules\async\dist\async.js:339:31
+    at F:\上课内容笔记\node\自己的\fouth\weekend\lifeiblog\routes\article.js:140:13
+    at Query.<anonymous> (F:\上课内容笔记\node\自己的\fouth\weekend\node_modules\mongoose\lib\query.js:2181:28)
+    at F:\上课内容笔记\node\自己的\fouth\weekend\node_modules\kareem\index.js:259:21
+    at F:\上课内容笔记\node\自己的\fouth\weekend\node_modules\kareem\index.js:127:16
+    at _combinedTickCallback (internal/process/next_tick.js:67:7)
+    at process._tickCallback (internal/process/next_tick.js:98:9)
+[Wed Jul 13 2016 13:20:37 GMT+0800 (中国标准时间)] /article/detail/57853ec357e5443823a3922d
+SyntaxError: Unexpected token > in F:\上课内容笔记\node\自己的\fouth\weekend\lifeiblog\views\article\detail.html while compiling ejs
+    at Object.Template.compile (F:\上课内容笔记\node\自己的\fouth\weekend\lifeiblog\node_modules\ejs\lib\ejs.js:485:12)
+    at Object.compile (F:\上课内容笔记\node\自己的\fouth\weekend\lifeiblog\node_modules\ejs\lib\ejs.js:289:16)
+    at handleCache (F:\上课内容笔记\node\自己的\fouth\weekend\lifeiblog\node_modules\ejs\lib\ejs.js:148:16)
+    at View.exports.renderFile [as engine] (F:\上课内容笔记\node\自己的\fouth\weekend\lifeiblog\node_modules\ejs\lib\ejs.js:358:14)
+    at View.render (F:\上课内容笔记\node\自己的\fouth\weekend\lifeiblog\node_modules\express\lib\view.js:126:8)
+    at tryRender (F:\上课内容笔记\node\自己的\fouth\weekend\lifeiblog\node_modules\express\lib\application.js:639:10)
+    at EventEmitter.render (F:\上课内容笔记\node\自己的\fouth\weekend\lifeiblog\node_modules\express\lib\application.js:591:3)
+    at ServerResponse.render (F:\上课内容笔记\node\自己的\fouth\weekend\lifeiblog\node_modules\express\lib\response.js:961:7)
+    at F:\上课内容笔记\node\自己的\fouth\weekend\lifeiblog\routes\article.js:165:13
+    at F:\上课内容笔记\node\自己的\fouth\weekend\node_modules\async\dist\async.js:5293:13
+    at F:\上课内容笔记\node\自己的\fouth\weekend\node_modules\async\dist\async.js:396:20
+    at replenish (F:\上课内容笔记\node\自己的\fouth\weekend\node_modules\async\dist\async.js:858:28)
+    at F:\上课内容笔记\node\自己的\fouth\weekend\node_modules\async\dist\async.js:877:29
+    at F:\上课内容笔记\node\自己的\fouth\weekend\node_modules\async\dist\async.js:840:20
+    at F:\上课内容笔记\node\自己的\fouth\weekend\node_modules\async\dist\async.js:5290:17
+    at F:\上课内容笔记\node\自己的\fouth\weekend\node_modules\async\dist\async.js:339:31
+    at F:\上课内容笔记\node\自己的\fouth\weekend\lifeiblog\routes\article.js:158:13
+    at Query.<anonymous> (F:\上课内容笔记\node\自己的\fouth\weekend\node_modules\mongoose\lib\query.js:2181:28)
+    at F:\上课内容笔记\node\自己的\fouth\weekend\node_modules\kareem\index.js:259:21
+    at F:\上课内容笔记\node\自己的\fouth\weekend\node_modules\kareem\index.js:127:16
+    at _combinedTickCallback (internal/process/next_tick.js:67:7)
+    at process._tickCallback (internal/process/next_tick.js:98:9)
+[Wed Jul 13 2016 13:20:41 GMT+0800 (中国标准时间)] /article/detail/5785cecc0b4ca8b01983c726
+SyntaxError: Unexpected token > in F:\上课内容笔记\node\自己的\fouth\weekend\lifeiblog\views\article\detail.html while compiling ejs
+    at Object.Template.compile (F:\上课内容笔记\node\自己的\fouth\weekend\lifeiblog\node_modules\ejs\lib\ejs.js:485:12)
+    at Object.compile (F:\上课内容笔记\node\自己的\fouth\weekend\lifeiblog\node_modules\ejs\lib\ejs.js:289:16)
+    at handleCache (F:\上课内容笔记\node\自己的\fouth\weekend\lifeiblog\node_modules\ejs\lib\ejs.js:148:16)
+    at View.exports.renderFile [as engine] (F:\上课内容笔记\node\自己的\fouth\weekend\lifeiblog\node_modules\ejs\lib\ejs.js:358:14)
+    at View.render (F:\上课内容笔记\node\自己的\fouth\weekend\lifeiblog\node_modules\express\lib\view.js:126:8)
+    at tryRender (F:\上课内容笔记\node\自己的\fouth\weekend\lifeiblog\node_modules\express\lib\application.js:639:10)
+    at EventEmitter.render (F:\上课内容笔记\node\自己的\fouth\weekend\lifeiblog\node_modules\express\lib\application.js:591:3)
+    at ServerResponse.render (F:\上课内容笔记\node\自己的\fouth\weekend\lifeiblog\node_modules\express\lib\response.js:961:7)
+    at F:\上课内容笔记\node\自己的\fouth\weekend\lifeiblog\routes\article.js:165:13
+    at F:\上课内容笔记\node\自己的\fouth\weekend\node_modules\async\dist\async.js:5293:13
+    at F:\上课内容笔记\node\自己的\fouth\weekend\node_modules\async\dist\async.js:396:20
+    at replenish (F:\上课内容笔记\node\自己的\fouth\weekend\node_modules\async\dist\async.js:858:28)
+    at F:\上课内容笔记\node\自己的\fouth\weekend\node_modules\async\dist\async.js:877:29
+    at F:\上课内容笔记\node\自己的\fouth\weekend\node_modules\async\dist\async.js:840:20
+    at F:\上课内容笔记\node\自己的\fouth\weekend\node_modules\async\dist\async.js:5290:17
+    at F:\上课内容笔记\node\自己的\fouth\weekend\node_modules\async\dist\async.js:339:31
+    at F:\上课内容笔记\node\自己的\fouth\weekend\lifeiblog\routes\article.js:158:13
+    at Query.<anonymous> (F:\上课内容笔记\node\自己的\fouth\weekend\node_modules\mongoose\lib\query.js:2181:28)
+    at F:\上课内容笔记\node\自己的\fouth\weekend\node_modules\kareem\index.js:259:21
+    at F:\上课内容笔记\node\自己的\fouth\weekend\node_modules\kareem\index.js:127:16
+    at _combinedTickCallback (internal/process/next_tick.js:67:7)
+    at process._tickCallback (internal/process/next_tick.js:98:9)
+[Wed Jul 13 2016 13:21:04 GMT+0800 (中国标准时间)] /article/detail/57853ec357e5443823a3922d
+SyntaxError: Unexpected token > in F:\上课内容笔记\node\自己的\fouth\weekend\lifeiblog\views\article\detail.html while compiling ejs
+    at Object.Template.compile (F:\上课内容笔记\node\自己的\fouth\weekend\lifeiblog\node_modules\ejs\lib\ejs.js:485:12)
+    at Object.compile (F:\上课内容笔记\node\自己的\fouth\weekend\lifeiblog\node_modules\ejs\lib\ejs.js:289:16)
+    at handleCache (F:\上课内容笔记\node\自己的\fouth\weekend\lifeiblog\node_modules\ejs\lib\ejs.js:148:16)
+    at View.exports.renderFile [as engine] (F:\上课内容笔记\node\自己的\fouth\weekend\lifeiblog\node_modules\ejs\lib\ejs.js:358:14)
+    at View.render (F:\上课内容笔记\node\自己的\fouth\weekend\lifeiblog\node_modules\express\lib\view.js:126:8)
+    at tryRender (F:\上课内容笔记\node\自己的\fouth\weekend\lifeiblog\node_modules\express\lib\application.js:639:10)
+    at EventEmitter.render (F:\上课内容笔记\node\自己的\fouth\weekend\lifeiblog\node_modules\express\lib\application.js:591:3)
+    at ServerResponse.render (F:\上课内容笔记\node\自己的\fouth\weekend\lifeiblog\node_modules\express\lib\response.js:961:7)
+    at F:\上课内容笔记\node\自己的\fouth\weekend\lifeiblog\routes\article.js:165:13
+    at F:\上课内容笔记\node\自己的\fouth\weekend\node_modules\async\dist\async.js:5293:13
+    at F:\上课内容笔记\node\自己的\fouth\weekend\node_modules\async\dist\async.js:396:20
+    at replenish (F:\上课内容笔记\node\自己的\fouth\weekend\node_modules\async\dist\async.js:858:28)
+    at F:\上课内容笔记\node\自己的\fouth\weekend\node_modules\async\dist\async.js:877:29
+    at F:\上课内容笔记\node\自己的\fouth\weekend\node_modules\async\dist\async.js:840:20
+    at F:\上课内容笔记\node\自己的\fouth\weekend\node_modules\async\dist\async.js:5290:17
+    at F:\上课内容笔记\node\自己的\fouth\weekend\node_modules\async\dist\async.js:339:31
+    at F:\上课内容笔记\node\自己的\fouth\weekend\lifeiblog\routes\article.js:158:13
+    at Query.<anonymous> (F:\上课内容笔记\node\自己的\fouth\weekend\node_modules\mongoose\lib\query.js:2181:28)
+    at F:\上课内容笔记\node\自己的\fouth\weekend\node_modules\kareem\index.js:259:21
+    at F:\上课内容笔记\node\自己的\fouth\weekend\node_modules\kareem\index.js:127:16
+    at _combinedTickCallback (internal/process/next_tick.js:67:7)
+    at process._tickCallback (internal/process/next_tick.js:98:9)
+[Wed Jul 13 2016 13:21:14 GMT+0800 (中国标准时间)] /article/detail/57853ec357e5443823a3922d
+SyntaxError: Unexpected token > in F:\上课内容笔记\node\自己的\fouth\weekend\lifeiblog\views\article\detail.html while compiling ejs
+    at Object.Template.compile (F:\上课内容笔记\node\自己的\fouth\weekend\lifeiblog\node_modules\ejs\lib\ejs.js:485:12)
+    at Object.compile (F:\上课内容笔记\node\自己的\fouth\weekend\lifeiblog\node_modules\ejs\lib\ejs.js:289:16)
+    at handleCache (F:\上课内容笔记\node\自己的\fouth\weekend\lifeiblog\node_modules\ejs\lib\ejs.js:148:16)
+    at View.exports.renderFile [as engine] (F:\上课内容笔记\node\自己的\fouth\weekend\lifeiblog\node_modules\ejs\lib\ejs.js:358:14)
+    at View.render (F:\上课内容笔记\node\自己的\fouth\weekend\lifeiblog\node_modules\express\lib\view.js:126:8)
+    at tryRender (F:\上课内容笔记\node\自己的\fouth\weekend\lifeiblog\node_modules\express\lib\application.js:639:10)
+    at EventEmitter.render (F:\上课内容笔记\node\自己的\fouth\weekend\lifeiblog\node_modules\express\lib\application.js:591:3)
+    at ServerResponse.render (F:\上课内容笔记\node\自己的\fouth\weekend\lifeiblog\node_modules\express\lib\response.js:961:7)
+    at F:\上课内容笔记\node\自己的\fouth\weekend\lifeiblog\routes\article.js:165:13
+    at F:\上课内容笔记\node\自己的\fouth\weekend\node_modules\async\dist\async.js:5293:13
+    at F:\上课内容笔记\node\自己的\fouth\weekend\node_modules\async\dist\async.js:396:20
+    at replenish (F:\上课内容笔记\node\自己的\fouth\weekend\node_modules\async\dist\async.js:858:28)
+    at F:\上课内容笔记\node\自己的\fouth\weekend\node_modules\async\dist\async.js:877:29
+    at F:\上课内容笔记\node\自己的\fouth\weekend\node_modules\async\dist\async.js:840:20
+    at F:\上课内容笔记\node\自己的\fouth\weekend\node_modules\async\dist\async.js:5290:17
+    at F:\上课内容笔记\node\自己的\fouth\weekend\node_modules\async\dist\async.js:339:31
+    at F:\上课内容笔记\node\自己的\fouth\weekend\lifeiblog\routes\article.js:158:13
+    at Query.<anonymous> (F:\上课内容笔记\node\自己的\fouth\weekend\node_modules\mongoose\lib\query.js:2181:28)
+    at F:\上课内容笔记\node\自己的\fouth\weekend\node_modules\kareem\index.js:259:21
+    at F:\上课内容笔记\node\自己的\fouth\weekend\node_modules\kareem\index.js:127:16
+    at _combinedTickCallback (internal/process/next_tick.js:67:7)
+    at process._tickCallback (internal/process/next_tick.js:98:9)
+[Wed Jul 13 2016 13:24:44 GMT+0800 (中国标准时间)] /article/detail/57853ec357e5443823a3922d
+SyntaxError: Unexpected token > in F:\上课内容笔记\node\自己的\fouth\weekend\lifeiblog\views\article\detail.html while compiling ejs
+    at Object.Template.compile (F:\上课内容笔记\node\自己的\fouth\weekend\lifeiblog\node_modules\ejs\lib\ejs.js:485:12)
+    at Object.compile (F:\上课内容笔记\node\自己的\fouth\weekend\lifeiblog\node_modules\ejs\lib\ejs.js:289:16)
+    at handleCache (F:\上课内容笔记\node\自己的\fouth\weekend\lifeiblog\node_modules\ejs\lib\ejs.js:148:16)
+    at View.exports.renderFile [as engine] (F:\上课内容笔记\node\自己的\fouth\weekend\lifeiblog\node_modules\ejs\lib\ejs.js:358:14)
+    at View.render (F:\上课内容笔记\node\自己的\fouth\weekend\lifeiblog\node_modules\express\lib\view.js:126:8)
+    at tryRender (F:\上课内容笔记\node\自己的\fouth\weekend\lifeiblog\node_modules\express\lib\application.js:639:10)
+    at EventEmitter.render (F:\上课内容笔记\node\自己的\fouth\weekend\lifeiblog\node_modules\express\lib\application.js:591:3)
+    at ServerResponse.render (F:\上课内容笔记\node\自己的\fouth\weekend\lifeiblog\node_modules\express\lib\response.js:961:7)
+    at F:\上课内容笔记\node\自己的\fouth\weekend\lifeiblog\routes\article.js:165:13
+    at F:\上课内容笔记\node\自己的\fouth\weekend\node_modules\async\dist\async.js:5293:13
+    at F:\上课内容笔记\node\自己的\fouth\weekend\node_modules\async\dist\async.js:396:20
+    at replenish (F:\上课内容笔记\node\自己的\fouth\weekend\node_modules\async\dist\async.js:858:28)
+    at F:\上课内容笔记\node\自己的\fouth\weekend\node_modules\async\dist\async.js:877:29
+    at F:\上课内容笔记\node\自己的\fouth\weekend\node_modules\async\dist\async.js:840:20
+    at F:\上课内容笔记\node\自己的\fouth\weekend\node_modules\async\dist\async.js:5290:17
+    at F:\上课内容笔记\node\自己的\fouth\weekend\node_modules\async\dist\async.js:339:31
+    at F:\上课内容笔记\node\自己的\fouth\weekend\lifeiblog\routes\article.js:158:13
+    at Query.<anonymous> (F:\上课内容笔记\node\自己的\fouth\weekend\node_modules\mongoose\lib\query.js:2181:28)
+    at F:\上课内容笔记\node\自己的\fouth\weekend\node_modules\kareem\index.js:259:21
+    at F:\上课内容笔记\node\自己的\fouth\weekend\node_modules\kareem\index.js:127:16
+    at _combinedTickCallback (internal/process/next_tick.js:67:7)
+    at process._tickCallback (internal/process/next_tick.js:98:9)
+[Wed Jul 13 2016 13:25:05 GMT+0800 (中国标准时间)] /article/detail/57853ec357e5443823a3922d
+SyntaxError: Unexpected token > in F:\上课内容笔记\node\自己的\fouth\weekend\lifeiblog\views\article\detail.html while compiling ejs
+    at Object.Template.compile (F:\上课内容笔记\node\自己的\fouth\weekend\lifeiblog\node_modules\ejs\lib\ejs.js:485:12)
+    at Object.compile (F:\上课内容笔记\node\自己的\fouth\weekend\lifeiblog\node_modules\ejs\lib\ejs.js:289:16)
+    at handleCache (F:\上课内容笔记\node\自己的\fouth\weekend\lifeiblog\node_modules\ejs\lib\ejs.js:148:16)
+    at View.exports.renderFile [as engine] (F:\上课内容笔记\node\自己的\fouth\weekend\lifeiblog\node_modules\ejs\lib\ejs.js:358:14)
+    at View.render (F:\上课内容笔记\node\自己的\fouth\weekend\lifeiblog\node_modules\express\lib\view.js:126:8)
+    at tryRender (F:\上课内容笔记\node\自己的\fouth\weekend\lifeiblog\node_modules\express\lib\application.js:639:10)
+    at EventEmitter.render (F:\上课内容笔记\node\自己的\fouth\weekend\lifeiblog\node_modules\express\lib\application.js:591:3)
+    at ServerResponse.render (F:\上课内容笔记\node\自己的\fouth\weekend\lifeiblog\node_modules\express\lib\response.js:961:7)
+    at F:\上课内容笔记\node\自己的\fouth\weekend\lifeiblog\routes\article.js:165:13
+    at F:\上课内容笔记\node\自己的\fouth\weekend\node_modules\async\dist\async.js:5293:13
+    at F:\上课内容笔记\node\自己的\fouth\weekend\node_modules\async\dist\async.js:396:20
+    at replenish (F:\上课内容笔记\node\自己的\fouth\weekend\node_modules\async\dist\async.js:858:28)
+    at F:\上课内容笔记\node\自己的\fouth\weekend\node_modules\async\dist\async.js:877:29
+    at F:\上课内容笔记\node\自己的\fouth\weekend\node_modules\async\dist\async.js:840:20
+    at F:\上课内容笔记\node\自己的\fouth\weekend\node_modules\async\dist\async.js:5290:17
+    at F:\上课内容笔记\node\自己的\fouth\weekend\node_modules\async\dist\async.js:339:31
+    at F:\上课内容笔记\node\自己的\fouth\weekend\lifeiblog\routes\article.js:158:13
+    at Query.<anonymous> (F:\上课内容笔记\node\自己的\fouth\weekend\node_modules\mongoose\lib\query.js:2181:28)
+    at F:\上课内容笔记\node\自己的\fouth\weekend\node_modules\kareem\index.js:259:21
+    at F:\上课内容笔记\node\自己的\fouth\weekend\node_modules\kareem\index.js:127:16
+    at _combinedTickCallback (internal/process/next_tick.js:67:7)
+    at process._tickCallback (internal/process/next_tick.js:98:9)
+[Wed Jul 13 2016 13:25:35 GMT+0800 (中国标准时间)] /article/detail/57853ec357e5443823a3922d
+SyntaxError: Unexpected token > in F:\上课内容笔记\node\自己的\fouth\weekend\lifeiblog\views\article\detail.html while compiling ejs
+    at Object.Template.compile (F:\上课内容笔记\node\自己的\fouth\weekend\lifeiblog\node_modules\ejs\lib\ejs.js:485:12)
+    at Object.compile (F:\上课内容笔记\node\自己的\fouth\weekend\lifeiblog\node_modules\ejs\lib\ejs.js:289:16)
+    at handleCache (F:\上课内容笔记\node\自己的\fouth\weekend\lifeiblog\node_modules\ejs\lib\ejs.js:148:16)
+    at View.exports.renderFile [as engine] (F:\上课内容笔记\node\自己的\fouth\weekend\lifeiblog\node_modules\ejs\lib\ejs.js:358:14)
+    at View.render (F:\上课内容笔记\node\自己的\fouth\weekend\lifeiblog\node_modules\express\lib\view.js:126:8)
+    at tryRender (F:\上课内容笔记\node\自己的\fouth\weekend\lifeiblog\node_modules\express\lib\application.js:639:10)
+    at EventEmitter.render (F:\上课内容笔记\node\自己的\fouth\weekend\lifeiblog\node_modules\express\lib\application.js:591:3)
+    at ServerResponse.render (F:\上课内容笔记\node\自己的\fouth\weekend\lifeiblog\node_modules\express\lib\response.js:961:7)
+    at F:\上课内容笔记\node\自己的\fouth\weekend\lifeiblog\routes\article.js:166:13
+    at F:\上课内容笔记\node\自己的\fouth\weekend\node_modules\async\dist\async.js:5293:13
+    at F:\上课内容笔记\node\自己的\fouth\weekend\node_modules\async\dist\async.js:396:20
+    at replenish (F:\上课内容笔记\node\自己的\fouth\weekend\node_modules\async\dist\async.js:858:28)
+    at F:\上课内容笔记\node\自己的\fouth\weekend\node_modules\async\dist\async.js:877:29
+    at F:\上课内容笔记\node\自己的\fouth\weekend\node_modules\async\dist\async.js:840:20
+    at F:\上课内容笔记\node\自己的\fouth\weekend\node_modules\async\dist\async.js:5290:17
+    at F:\上课内容笔记\node\自己的\fouth\weekend\node_modules\async\dist\async.js:339:31
+    at F:\上课内容笔记\node\自己的\fouth\weekend\lifeiblog\routes\article.js:158:13
+    at Query.<anonymous> (F:\上课内容笔记\node\自己的\fouth\weekend\node_modules\mongoose\lib\query.js:2181:28)
+    at F:\上课内容笔记\node\自己的\fouth\weekend\node_modules\kareem\index.js:259:21
+    at F:\上课内容笔记\node\自己的\fouth\weekend\node_modules\kareem\index.js:127:16
+    at _combinedTickCallback (internal/process/next_tick.js:67:7)
+    at process._tickCallback (internal/process/next_tick.js:98:9)
+[Wed Jul 13 2016 13:26:16 GMT+0800 (中国标准时间)] /article/detail/57853ec357e5443823a3922d
+SyntaxError: Unexpected token > in F:\上课内容笔记\node\自己的\fouth\weekend\lifeiblog\views\article\detail.html while compiling ejs
+    at Object.Template.compile (F:\上课内容笔记\node\自己的\fouth\weekend\lifeiblog\node_modules\ejs\lib\ejs.js:485:12)
+    at Object.compile (F:\上课内容笔记\node\自己的\fouth\weekend\lifeiblog\node_modules\ejs\lib\ejs.js:289:16)
+    at handleCache (F:\上课内容笔记\node\自己的\fouth\weekend\lifeiblog\node_modules\ejs\lib\ejs.js:148:16)
+    at View.exports.renderFile [as engine] (F:\上课内容笔记\node\自己的\fouth\weekend\lifeiblog\node_modules\ejs\lib\ejs.js:358:14)
+    at View.render (F:\上课内容笔记\node\自己的\fouth\weekend\lifeiblog\node_modules\express\lib\view.js:126:8)
+    at tryRender (F:\上课内容笔记\node\自己的\fouth\weekend\lifeiblog\node_modules\express\lib\application.js:639:10)
+    at EventEmitter.render (F:\上课内容笔记\node\自己的\fouth\weekend\lifeiblog\node_modules\express\lib\application.js:591:3)
+    at ServerResponse.render (F:\上课内容笔记\node\自己的\fouth\weekend\lifeiblog\node_modules\express\lib\response.js:961:7)
+    at F:\上课内容笔记\node\自己的\fouth\weekend\lifeiblog\routes\article.js:165:13
+    at F:\上课内容笔记\node\自己的\fouth\weekend\node_modules\async\dist\async.js:5293:13
+    at F:\上课内容笔记\node\自己的\fouth\weekend\node_modules\async\dist\async.js:396:20
+    at replenish (F:\上课内容笔记\node\自己的\fouth\weekend\node_modules\async\dist\async.js:858:28)
+    at F:\上课内容笔记\node\自己的\fouth\weekend\node_modules\async\dist\async.js:877:29
+    at F:\上课内容笔记\node\自己的\fouth\weekend\node_modules\async\dist\async.js:840:20
+    at F:\上课内容笔记\node\自己的\fouth\weekend\node_modules\async\dist\async.js:5290:17
+    at F:\上课内容笔记\node\自己的\fouth\weekend\node_modules\async\dist\async.js:339:31
+    at F:\上课内容笔记\node\自己的\fouth\weekend\lifeiblog\routes\article.js:158:13
+    at Query.<anonymous> (F:\上课内容笔记\node\自己的\fouth\weekend\node_modules\mongoose\lib\query.js:2181:28)
+    at F:\上课内容笔记\node\自己的\fouth\weekend\node_modules\kareem\index.js:259:21
+    at F:\上课内容笔记\node\自己的\fouth\weekend\node_modules\kareem\index.js:127:16
+    at _combinedTickCallback (internal/process/next_tick.js:67:7)
+    at process._tickCallback (internal/process/next_tick.js:98:9)
+[Wed Jul 13 2016 13:26:36 GMT+0800 (中国标准时间)] /article/detail/57853ec357e5443823a3922d
+SyntaxError: Unexpected token > in F:\上课内容笔记\node\自己的\fouth\weekend\lifeiblog\views\article\detail.html while compiling ejs
+    at Object.Template.compile (F:\上课内容笔记\node\自己的\fouth\weekend\lifeiblog\node_modules\ejs\lib\ejs.js:485:12)
+    at Object.compile (F:\上课内容笔记\node\自己的\fouth\weekend\lifeiblog\node_modules\ejs\lib\ejs.js:289:16)
+    at handleCache (F:\上课内容笔记\node\自己的\fouth\weekend\lifeiblog\node_modules\ejs\lib\ejs.js:148:16)
+    at View.exports.renderFile [as engine] (F:\上课内容笔记\node\自己的\fouth\weekend\lifeiblog\node_modules\ejs\lib\ejs.js:358:14)
+    at View.render (F:\上课内容笔记\node\自己的\fouth\weekend\lifeiblog\node_modules\express\lib\view.js:126:8)
+    at tryRender (F:\上课内容笔记\node\自己的\fouth\weekend\lifeiblog\node_modules\express\lib\application.js:639:10)
+    at EventEmitter.render (F:\上课内容笔记\node\自己的\fouth\weekend\lifeiblog\node_modules\express\lib\application.js:591:3)
+    at ServerResponse.render (F:\上课内容笔记\node\自己的\fouth\weekend\lifeiblog\node_modules\express\lib\response.js:961:7)
+    at F:\上课内容笔记\node\自己的\fouth\weekend\lifeiblog\routes\article.js:165:13
+    at F:\上课内容笔记\node\自己的\fouth\weekend\node_modules\async\dist\async.js:5293:13
+    at F:\上课内容笔记\node\自己的\fouth\weekend\node_modules\async\dist\async.js:396:20
+    at replenish (F:\上课内容笔记\node\自己的\fouth\weekend\node_modules\async\dist\async.js:858:28)
+    at F:\上课内容笔记\node\自己的\fouth\weekend\node_modules\async\dist\async.js:877:29
+    at F:\上课内容笔记\node\自己的\fouth\weekend\node_modules\async\dist\async.js:840:20
+    at F:\上课内容笔记\node\自己的\fouth\weekend\node_modules\async\dist\async.js:5290:17
+    at F:\上课内容笔记\node\自己的\fouth\weekend\node_modules\async\dist\async.js:339:31
+    at F:\上课内容笔记\node\自己的\fouth\weekend\lifeiblog\routes\article.js:158:13
+    at Query.<anonymous> (F:\上课内容笔记\node\自己的\fouth\weekend\node_modules\mongoose\lib\query.js:2181:28)
+    at F:\上课内容笔记\node\自己的\fouth\weekend\node_modules\kareem\index.js:259:21
+    at F:\上课内容笔记\node\自己的\fouth\weekend\node_modules\kareem\index.js:127:16
+    at _combinedTickCallback (internal/process/next_tick.js:67:7)
+    at process._tickCallback (internal/process/next_tick.js:98:9)
+[Wed Jul 13 2016 13:26:42 GMT+0800 (中国标准时间)] /article/detail/57853ec357e5443823a3922d
+SyntaxError: Unexpected token > in F:\上课内容笔记\node\自己的\fouth\weekend\lifeiblog\views\article\detail.html while compiling ejs
+    at Object.Template.compile (F:\上课内容笔记\node\自己的\fouth\weekend\lifeiblog\node_modules\ejs\lib\ejs.js:485:12)
+    at Object.compile (F:\上课内容笔记\node\自己的\fouth\weekend\lifeiblog\node_modules\ejs\lib\ejs.js:289:16)
+    at handleCache (F:\上课内容笔记\node\自己的\fouth\weekend\lifeiblog\node_modules\ejs\lib\ejs.js:148:16)
+    at View.exports.renderFile [as engine] (F:\上课内容笔记\node\自己的\fouth\weekend\lifeiblog\node_modules\ejs\lib\ejs.js:358:14)
+    at View.render (F:\上课内容笔记\node\自己的\fouth\weekend\lifeiblog\node_modules\express\lib\view.js:126:8)
+    at tryRender (F:\上课内容笔记\node\自己的\fouth\weekend\lifeiblog\node_modules\express\lib\application.js:639:10)
+    at EventEmitter.render (F:\上课内容笔记\node\自己的\fouth\weekend\lifeiblog\node_modules\express\lib\application.js:591:3)
+    at ServerResponse.render (F:\上课内容笔记\node\自己的\fouth\weekend\lifeiblog\node_modules\express\lib\response.js:961:7)
+    at F:\上课内容笔记\node\自己的\fouth\weekend\lifeiblog\routes\article.js:165:13
+    at F:\上课内容笔记\node\自己的\fouth\weekend\node_modules\async\dist\async.js:5293:13
+    at F:\上课内容笔记\node\自己的\fouth\weekend\node_modules\async\dist\async.js:396:20
+    at replenish (F:\上课内容笔记\node\自己的\fouth\weekend\node_modules\async\dist\async.js:858:28)
+    at F:\上课内容笔记\node\自己的\fouth\weekend\node_modules\async\dist\async.js:877:29
+    at F:\上课内容笔记\node\自己的\fouth\weekend\node_modules\async\dist\async.js:840:20
+    at F:\上课内容笔记\node\自己的\fouth\weekend\node_modules\async\dist\async.js:5290:17
+    at F:\上课内容笔记\node\自己的\fouth\weekend\node_modules\async\dist\async.js:339:31
+    at F:\上课内容笔记\node\自己的\fouth\weekend\lifeiblog\routes\article.js:158:13
+    at Query.<anonymous> (F:\上课内容笔记\node\自己的\fouth\weekend\node_modules\mongoose\lib\query.js:2181:28)
+    at F:\上课内容笔记\node\自己的\fouth\weekend\node_modules\kareem\index.js:259:21
+    at F:\上课内容笔记\node\自己的\fouth\weekend\node_modules\kareem\index.js:127:16
+    at _combinedTickCallback (internal/process/next_tick.js:67:7)
+    at process._tickCallback (internal/process/next_tick.js:98:9)
+[Wed Jul 13 2016 13:29:05 GMT+0800 (中国标准时间)] /article/detail/57853ec357e5443823a3922d
+SyntaxError: Unexpected token > in F:\上课内容笔记\node\自己的\fouth\weekend\lifeiblog\views\article\detail.html while compiling ejs
+    at Object.Template.compile (F:\上课内容笔记\node\自己的\fouth\weekend\lifeiblog\node_modules\ejs\lib\ejs.js:485:12)
+    at Object.compile (F:\上课内容笔记\node\自己的\fouth\weekend\lifeiblog\node_modules\ejs\lib\ejs.js:289:16)
+    at handleCache (F:\上课内容笔记\node\自己的\fouth\weekend\lifeiblog\node_modules\ejs\lib\ejs.js:148:16)
+    at View.exports.renderFile [as engine] (F:\上课内容笔记\node\自己的\fouth\weekend\lifeiblog\node_modules\ejs\lib\ejs.js:358:14)
+    at View.render (F:\上课内容笔记\node\自己的\fouth\weekend\lifeiblog\node_modules\express\lib\view.js:126:8)
+    at tryRender (F:\上课内容笔记\node\自己的\fouth\weekend\lifeiblog\node_modules\express\lib\application.js:639:10)
+    at EventEmitter.render (F:\上课内容笔记\node\自己的\fouth\weekend\lifeiblog\node_modules\express\lib\application.js:591:3)
+    at ServerResponse.render (F:\上课内容笔记\node\自己的\fouth\weekend\lifeiblog\node_modules\express\lib\response.js:961:7)
+    at F:\上课内容笔记\node\自己的\fouth\weekend\lifeiblog\routes\article.js:165:13
+    at F:\上课内容笔记\node\自己的\fouth\weekend\node_modules\async\dist\async.js:5293:13
+    at F:\上课内容笔记\node\自己的\fouth\weekend\node_modules\async\dist\async.js:396:20
+    at replenish (F:\上课内容笔记\node\自己的\fouth\weekend\node_modules\async\dist\async.js:858:28)
+    at F:\上课内容笔记\node\自己的\fouth\weekend\node_modules\async\dist\async.js:877:29
+    at F:\上课内容笔记\node\自己的\fouth\weekend\node_modules\async\dist\async.js:840:20
+    at F:\上课内容笔记\node\自己的\fouth\weekend\node_modules\async\dist\async.js:5290:17
+    at F:\上课内容笔记\node\自己的\fouth\weekend\node_modules\async\dist\async.js:339:31
+    at F:\上课内容笔记\node\自己的\fouth\weekend\lifeiblog\routes\article.js:158:13
+    at Query.<anonymous> (F:\上课内容笔记\node\自己的\fouth\weekend\node_modules\mongoose\lib\query.js:2181:28)
+    at F:\上课内容笔记\node\自己的\fouth\weekend\node_modules\kareem\index.js:259:21
+    at F:\上课内容笔记\node\自己的\fouth\weekend\node_modules\kareem\index.js:127:16
+    at _combinedTickCallback (internal/process/next_tick.js:67:7)
+    at process._tickCallback (internal/process/next_tick.js:98:9)
+[Wed Jul 13 2016 13:29:07 GMT+0800 (中国标准时间)] /article/detail/57853ec357e5443823a3922d
+SyntaxError: Unexpected token > in F:\上课内容笔记\node\自己的\fouth\weekend\lifeiblog\views\article\detail.html while compiling ejs
+    at Object.Template.compile (F:\上课内容笔记\node\自己的\fouth\weekend\lifeiblog\node_modules\ejs\lib\ejs.js:485:12)
+    at Object.compile (F:\上课内容笔记\node\自己的\fouth\weekend\lifeiblog\node_modules\ejs\lib\ejs.js:289:16)
+    at handleCache (F:\上课内容笔记\node\自己的\fouth\weekend\lifeiblog\node_modules\ejs\lib\ejs.js:148:16)
+    at View.exports.renderFile [as engine] (F:\上课内容笔记\node\自己的\fouth\weekend\lifeiblog\node_modules\ejs\lib\ejs.js:358:14)
+    at View.render (F:\上课内容笔记\node\自己的\fouth\weekend\lifeiblog\node_modules\express\lib\view.js:126:8)
+    at tryRender (F:\上课内容笔记\node\自己的\fouth\weekend\lifeiblog\node_modules\express\lib\application.js:639:10)
+    at EventEmitter.render (F:\上课内容笔记\node\自己的\fouth\weekend\lifeiblog\node_modules\express\lib\application.js:591:3)
+    at ServerResponse.render (F:\上课内容笔记\node\自己的\fouth\weekend\lifeiblog\node_modules\express\lib\response.js:961:7)
+    at F:\上课内容笔记\node\自己的\fouth\weekend\lifeiblog\routes\article.js:165:13
+    at F:\上课内容笔记\node\自己的\fouth\weekend\node_modules\async\dist\async.js:5293:13
+    at F:\上课内容笔记\node\自己的\fouth\weekend\node_modules\async\dist\async.js:396:20
+    at replenish (F:\上课内容笔记\node\自己的\fouth\weekend\node_modules\async\dist\async.js:858:28)
+    at F:\上课内容笔记\node\自己的\fouth\weekend\node_modules\async\dist\async.js:877:29
+    at F:\上课内容笔记\node\自己的\fouth\weekend\node_modules\async\dist\async.js:840:20
+    at F:\上课内容笔记\node\自己的\fouth\weekend\node_modules\async\dist\async.js:5290:17
+    at F:\上课内容笔记\node\自己的\fouth\weekend\node_modules\async\dist\async.js:339:31
+    at F:\上课内容笔记\node\自己的\fouth\weekend\lifeiblog\routes\article.js:158:13
+    at Query.<anonymous> (F:\上课内容笔记\node\自己的\fouth\weekend\node_modules\mongoose\lib\query.js:2181:28)
+    at F:\上课内容笔记\node\自己的\fouth\weekend\node_modules\kareem\index.js:259:21
+    at F:\上课内容笔记\node\自己的\fouth\weekend\node_modules\kareem\index.js:127:16
+    at _combinedTickCallback (internal/process/next_tick.js:67:7)
+    at process._tickCallback (internal/process/next_tick.js:98:9)
+[Wed Jul 13 2016 13:29:09 GMT+0800 (中国标准时间)] /article/detail/57853ec357e5443823a3922d
+SyntaxError: Unexpected token > in F:\上课内容笔记\node\自己的\fouth\weekend\lifeiblog\views\article\detail.html while compiling ejs
+    at Object.Template.compile (F:\上课内容笔记\node\自己的\fouth\weekend\lifeiblog\node_modules\ejs\lib\ejs.js:485:12)
+    at Object.compile (F:\上课内容笔记\node\自己的\fouth\weekend\lifeiblog\node_modules\ejs\lib\ejs.js:289:16)
+    at handleCache (F:\上课内容笔记\node\自己的\fouth\weekend\lifeiblog\node_modules\ejs\lib\ejs.js:148:16)
+    at View.exports.renderFile [as engine] (F:\上课内容笔记\node\自己的\fouth\weekend\lifeiblog\node_modules\ejs\lib\ejs.js:358:14)
+    at View.render (F:\上课内容笔记\node\自己的\fouth\weekend\lifeiblog\node_modules\express\lib\view.js:126:8)
+    at tryRender (F:\上课内容笔记\node\自己的\fouth\weekend\lifeiblog\node_modules\express\lib\application.js:639:10)
+    at EventEmitter.render (F:\上课内容笔记\node\自己的\fouth\weekend\lifeiblog\node_modules\express\lib\application.js:591:3)
+    at ServerResponse.render (F:\上课内容笔记\node\自己的\fouth\weekend\lifeiblog\node_modules\express\lib\response.js:961:7)
+    at F:\上课内容笔记\node\自己的\fouth\weekend\lifeiblog\routes\article.js:165:13
+    at F:\上课内容笔记\node\自己的\fouth\weekend\node_modules\async\dist\async.js:5293:13
+    at F:\上课内容笔记\node\自己的\fouth\weekend\node_modules\async\dist\async.js:396:20
+    at replenish (F:\上课内容笔记\node\自己的\fouth\weekend\node_modules\async\dist\async.js:858:28)
+    at F:\上课内容笔记\node\自己的\fouth\weekend\node_modules\async\dist\async.js:877:29
+    at F:\上课内容笔记\node\自己的\fouth\weekend\node_modules\async\dist\async.js:840:20
+    at F:\上课内容笔记\node\自己的\fouth\weekend\node_modules\async\dist\async.js:5290:17
+    at F:\上课内容笔记\node\自己的\fouth\weekend\node_modules\async\dist\async.js:339:31
+    at F:\上课内容笔记\node\自己的\fouth\weekend\lifeiblog\routes\article.js:158:13
+    at Query.<anonymous> (F:\上课内容笔记\node\自己的\fouth\weekend\node_modules\mongoose\lib\query.js:2181:28)
+    at F:\上课内容笔记\node\自己的\fouth\weekend\node_modules\kareem\index.js:259:21
+    at F:\上课内容笔记\node\自己的\fouth\weekend\node_modules\kareem\index.js:127:16
+    at _combinedTickCallback (internal/process/next_tick.js:67:7)
+    at process._tickCallback (internal/process/next_tick.js:98:9)
+[Wed Jul 13 2016 13:30:12 GMT+0800 (中国标准时间)] /article/detail/57853ec357e5443823a3922d
+SyntaxError: Unexpected token > in F:\上课内容笔记\node\自己的\fouth\weekend\lifeiblog\views\article\detail.html while compiling ejs
+    at Object.Template.compile (F:\上课内容笔记\node\自己的\fouth\weekend\lifeiblog\node_modules\ejs\lib\ejs.js:485:12)
+    at Object.compile (F:\上课内容笔记\node\自己的\fouth\weekend\lifeiblog\node_modules\ejs\lib\ejs.js:289:16)
+    at handleCache (F:\上课内容笔记\node\自己的\fouth\weekend\lifeiblog\node_modules\ejs\lib\ejs.js:148:16)
+    at View.exports.renderFile [as engine] (F:\上课内容笔记\node\自己的\fouth\weekend\lifeiblog\node_modules\ejs\lib\ejs.js:358:14)
+    at View.render (F:\上课内容笔记\node\自己的\fouth\weekend\lifeiblog\node_modules\express\lib\view.js:126:8)
+    at tryRender (F:\上课内容笔记\node\自己的\fouth\weekend\lifeiblog\node_modules\express\lib\application.js:639:10)
+    at EventEmitter.render (F:\上课内容笔记\node\自己的\fouth\weekend\lifeiblog\node_modules\express\lib\application.js:591:3)
+    at ServerResponse.render (F:\上课内容笔记\node\自己的\fouth\weekend\lifeiblog\node_modules\express\lib\response.js:961:7)
+    at F:\上课内容笔记\node\自己的\fouth\weekend\lifeiblog\routes\article.js:165:13
+    at F:\上课内容笔记\node\自己的\fouth\weekend\node_modules\async\dist\async.js:5293:13
+    at F:\上课内容笔记\node\自己的\fouth\weekend\node_modules\async\dist\async.js:396:20
+    at replenish (F:\上课内容笔记\node\自己的\fouth\weekend\node_modules\async\dist\async.js:858:28)
+    at F:\上课内容笔记\node\自己的\fouth\weekend\node_modules\async\dist\async.js:877:29
+    at F:\上课内容笔记\node\自己的\fouth\weekend\node_modules\async\dist\async.js:840:20
+    at F:\上课内容笔记\node\自己的\fouth\weekend\node_modules\async\dist\async.js:5290:17
+    at F:\上课内容笔记\node\自己的\fouth\weekend\node_modules\async\dist\async.js:339:31
+    at F:\上课内容笔记\node\自己的\fouth\weekend\lifeiblog\routes\article.js:158:13
+    at Query.<anonymous> (F:\上课内容笔记\node\自己的\fouth\weekend\node_modules\mongoose\lib\query.js:2181:28)
+    at F:\上课内容笔记\node\自己的\fouth\weekend\node_modules\kareem\index.js:259:21
+    at F:\上课内容笔记\node\自己的\fouth\weekend\node_modules\kareem\index.js:127:16
+    at _combinedTickCallback (internal/process/next_tick.js:67:7)
+    at process._tickCallback (internal/process/next_tick.js:98:9)
+[Wed Jul 13 2016 13:30:14 GMT+0800 (中国标准时间)] /article/detail/57853ec357e5443823a3922d
+SyntaxError: Unexpected token > in F:\上课内容笔记\node\自己的\fouth\weekend\lifeiblog\views\article\detail.html while compiling ejs
+    at Object.Template.compile (F:\上课内容笔记\node\自己的\fouth\weekend\lifeiblog\node_modules\ejs\lib\ejs.js:485:12)
+    at Object.compile (F:\上课内容笔记\node\自己的\fouth\weekend\lifeiblog\node_modules\ejs\lib\ejs.js:289:16)
+    at handleCache (F:\上课内容笔记\node\自己的\fouth\weekend\lifeiblog\node_modules\ejs\lib\ejs.js:148:16)
+    at View.exports.renderFile [as engine] (F:\上课内容笔记\node\自己的\fouth\weekend\lifeiblog\node_modules\ejs\lib\ejs.js:358:14)
+    at View.render (F:\上课内容笔记\node\自己的\fouth\weekend\lifeiblog\node_modules\express\lib\view.js:126:8)
+    at tryRender (F:\上课内容笔记\node\自己的\fouth\weekend\lifeiblog\node_modules\express\lib\application.js:639:10)
+    at EventEmitter.render (F:\上课内容笔记\node\自己的\fouth\weekend\lifeiblog\node_modules\express\lib\application.js:591:3)
+    at ServerResponse.render (F:\上课内容笔记\node\自己的\fouth\weekend\lifeiblog\node_modules\express\lib\response.js:961:7)
+    at F:\上课内容笔记\node\自己的\fouth\weekend\lifeiblog\routes\article.js:165:13
+    at F:\上课内容笔记\node\自己的\fouth\weekend\node_modules\async\dist\async.js:5293:13
+    at F:\上课内容笔记\node\自己的\fouth\weekend\node_modules\async\dist\async.js:396:20
+    at replenish (F:\上课内容笔记\node\自己的\fouth\weekend\node_modules\async\dist\async.js:858:28)
+    at F:\上课内容笔记\node\自己的\fouth\weekend\node_modules\async\dist\async.js:877:29
+    at F:\上课内容笔记\node\自己的\fouth\weekend\node_modules\async\dist\async.js:840:20
+    at F:\上课内容笔记\node\自己的\fouth\weekend\node_modules\async\dist\async.js:5290:17
+    at F:\上课内容笔记\node\自己的\fouth\weekend\node_modules\async\dist\async.js:339:31
+    at F:\上课内容笔记\node\自己的\fouth\weekend\lifeiblog\routes\article.js:158:13
+    at Query.<anonymous> (F:\上课内容笔记\node\自己的\fouth\weekend\node_modules\mongoose\lib\query.js:2181:28)
+    at F:\上课内容笔记\node\自己的\fouth\weekend\node_modules\kareem\index.js:259:21
+    at F:\上课内容笔记\node\自己的\fouth\weekend\node_modules\kareem\index.js:127:16
+    at _combinedTickCallback (internal/process/next_tick.js:67:7)
+    at process._tickCallback (internal/process/next_tick.js:98:9)
+[Wed Jul 13 2016 13:30:47 GMT+0800 (中国标准时间)] /article/detail/57853ec357e5443823a3922d
+SyntaxError: Unexpected token > in F:\上课内容笔记\node\自己的\fouth\weekend\lifeiblog\views\article\detail.html while compiling ejs
+    at Object.Template.compile (F:\上课内容笔记\node\自己的\fouth\weekend\lifeiblog\node_modules\ejs\lib\ejs.js:485:12)
+    at Object.compile (F:\上课内容笔记\node\自己的\fouth\weekend\lifeiblog\node_modules\ejs\lib\ejs.js:289:16)
+    at handleCache (F:\上课内容笔记\node\自己的\fouth\weekend\lifeiblog\node_modules\ejs\lib\ejs.js:148:16)
+    at View.exports.renderFile [as engine] (F:\上课内容笔记\node\自己的\fouth\weekend\lifeiblog\node_modules\ejs\lib\ejs.js:358:14)
+    at View.render (F:\上课内容笔记\node\自己的\fouth\weekend\lifeiblog\node_modules\express\lib\view.js:126:8)
+    at tryRender (F:\上课内容笔记\node\自己的\fouth\weekend\lifeiblog\node_modules\express\lib\application.js:639:10)
+    at EventEmitter.render (F:\上课内容笔记\node\自己的\fouth\weekend\lifeiblog\node_modules\express\lib\application.js:591:3)
+    at ServerResponse.render (F:\上课内容笔记\node\自己的\fouth\weekend\lifeiblog\node_modules\express\lib\response.js:961:7)
+    at F:\上课内容笔记\node\自己的\fouth\weekend\lifeiblog\routes\article.js:165:19
+    at F:\上课内容笔记\node\自己的\fouth\weekend\node_modules\async\dist\async.js:5293:13
+    at F:\上课内容笔记\node\自己的\fouth\weekend\node_modules\async\dist\async.js:396:20
+    at replenish (F:\上课内容笔记\node\自己的\fouth\weekend\node_modules\async\dist\async.js:858:28)
+    at F:\上课内容笔记\node\自己的\fouth\weekend\node_modules\async\dist\async.js:877:29
+    at F:\上课内容笔记\node\自己的\fouth\weekend\node_modules\async\dist\async.js:840:20
+    at F:\上课内容笔记\node\自己的\fouth\weekend\node_modules\async\dist\async.js:5290:17
+    at F:\上课内容笔记\node\自己的\fouth\weekend\node_modules\async\dist\async.js:339:31
+    at F:\上课内容笔记\node\自己的\fouth\weekend\lifeiblog\routes\article.js:158:13
+    at Query.<anonymous> (F:\上课内容笔记\node\自己的\fouth\weekend\node_modules\mongoose\lib\query.js:2181:28)
+    at F:\上课内容笔记\node\自己的\fouth\weekend\node_modules\kareem\index.js:259:21
+    at F:\上课内容笔记\node\自己的\fouth\weekend\node_modules\kareem\index.js:127:16
+    at _combinedTickCallback (internal/process/next_tick.js:67:7)
+    at process._tickCallback (internal/process/next_tick.js:98:9)
+[Wed Jul 13 2016 13:30:51 GMT+0800 (中国标准时间)] /article/detail/57853ec357e5443823a3922d
+SyntaxError: Unexpected token > in F:\上课内容笔记\node\自己的\fouth\weekend\lifeiblog\views\article\detail.html while compiling ejs
+    at Object.Template.compile (F:\上课内容笔记\node\自己的\fouth\weekend\lifeiblog\node_modules\ejs\lib\ejs.js:485:12)
+    at Object.compile (F:\上课内容笔记\node\自己的\fouth\weekend\lifeiblog\node_modules\ejs\lib\ejs.js:289:16)
+    at handleCache (F:\上课内容笔记\node\自己的\fouth\weekend\lifeiblog\node_modules\ejs\lib\ejs.js:148:16)
+    at View.exports.renderFile [as engine] (F:\上课内容笔记\node\自己的\fouth\weekend\lifeiblog\node_modules\ejs\lib\ejs.js:358:14)
+    at View.render (F:\上课内容笔记\node\自己的\fouth\weekend\lifeiblog\node_modules\express\lib\view.js:126:8)
+    at tryRender (F:\上课内容笔记\node\自己的\fouth\weekend\lifeiblog\node_modules\express\lib\application.js:639:10)
+    at EventEmitter.render (F:\上课内容笔记\node\自己的\fouth\weekend\lifeiblog\node_modules\express\lib\application.js:591:3)
+    at ServerResponse.render (F:\上课内容笔记\node\自己的\fouth\weekend\lifeiblog\node_modules\express\lib\response.js:961:7)
+    at F:\上课内容笔记\node\自己的\fouth\weekend\lifeiblog\routes\article.js:165:19
+    at F:\上课内容笔记\node\自己的\fouth\weekend\node_modules\async\dist\async.js:5293:13
+    at F:\上课内容笔记\node\自己的\fouth\weekend\node_modules\async\dist\async.js:396:20
+    at replenish (F:\上课内容笔记\node\自己的\fouth\weekend\node_modules\async\dist\async.js:858:28)
+    at F:\上课内容笔记\node\自己的\fouth\weekend\node_modules\async\dist\async.js:877:29
+    at F:\上课内容笔记\node\自己的\fouth\weekend\node_modules\async\dist\async.js:840:20
+    at F:\上课内容笔记\node\自己的\fouth\weekend\node_modules\async\dist\async.js:5290:17
+    at F:\上课内容笔记\node\自己的\fouth\weekend\node_modules\async\dist\async.js:339:31
+    at F:\上课内容笔记\node\自己的\fouth\weekend\lifeiblog\routes\article.js:158:13
+    at Query.<anonymous> (F:\上课内容笔记\node\自己的\fouth\weekend\node_modules\mongoose\lib\query.js:2181:28)
+    at F:\上课内容笔记\node\自己的\fouth\weekend\node_modules\kareem\index.js:259:21
+    at F:\上课内容笔记\node\自己的\fouth\weekend\node_modules\kareem\index.js:127:16
+    at _combinedTickCallback (internal/process/next_tick.js:67:7)
+    at process._tickCallback (internal/process/next_tick.js:98:9)
+[Wed Jul 13 2016 13:31:59 GMT+0800 (中国标准时间)] /article/detail/57853ec357e5443823a3922d
+SyntaxError: Unexpected token > in F:\上课内容笔记\node\自己的\fouth\weekend\lifeiblog\views\article\detail.html while compiling ejs
+    at Object.Template.compile (F:\上课内容笔记\node\自己的\fouth\weekend\lifeiblog\node_modules\ejs\lib\ejs.js:485:12)
+    at Object.compile (F:\上课内容笔记\node\自己的\fouth\weekend\lifeiblog\node_modules\ejs\lib\ejs.js:289:16)
+    at handleCache (F:\上课内容笔记\node\自己的\fouth\weekend\lifeiblog\node_modules\ejs\lib\ejs.js:148:16)
+    at View.exports.renderFile [as engine] (F:\上课内容笔记\node\自己的\fouth\weekend\lifeiblog\node_modules\ejs\lib\ejs.js:358:14)
+    at View.render (F:\上课内容笔记\node\自己的\fouth\weekend\lifeiblog\node_modules\express\lib\view.js:126:8)
+    at tryRender (F:\上课内容笔记\node\自己的\fouth\weekend\lifeiblog\node_modules\express\lib\application.js:639:10)
+    at EventEmitter.render (F:\上课内容笔记\node\自己的\fouth\weekend\lifeiblog\node_modules\express\lib\application.js:591:3)
+    at ServerResponse.render (F:\上课内容笔记\node\自己的\fouth\weekend\lifeiblog\node_modules\express\lib\response.js:961:7)
+    at F:\上课内容笔记\node\自己的\fouth\weekend\lifeiblog\routes\article.js:166:19
+    at F:\上课内容笔记\node\自己的\fouth\weekend\node_modules\async\dist\async.js:5293:13
+    at F:\上课内容笔记\node\自己的\fouth\weekend\node_modules\async\dist\async.js:396:20
+    at replenish (F:\上课内容笔记\node\自己的\fouth\weekend\node_modules\async\dist\async.js:858:28)
+    at F:\上课内容笔记\node\自己的\fouth\weekend\node_modules\async\dist\async.js:877:29
+    at F:\上课内容笔记\node\自己的\fouth\weekend\node_modules\async\dist\async.js:840:20
+    at F:\上课内容笔记\node\自己的\fouth\weekend\node_modules\async\dist\async.js:5290:17
+    at F:\上课内容笔记\node\自己的\fouth\weekend\node_modules\async\dist\async.js:339:31
+    at F:\上课内容笔记\node\自己的\fouth\weekend\lifeiblog\routes\article.js:158:13
+    at Query.<anonymous> (F:\上课内容笔记\node\自己的\fouth\weekend\node_modules\mongoose\lib\query.js:2181:28)
+    at F:\上课内容笔记\node\自己的\fouth\weekend\node_modules\kareem\index.js:259:21
+    at F:\上课内容笔记\node\自己的\fouth\weekend\node_modules\kareem\index.js:127:16
+    at _combinedTickCallback (internal/process/next_tick.js:67:7)
+    at process._tickCallback (internal/process/next_tick.js:98:9)
+[Wed Jul 13 2016 13:35:58 GMT+0800 (中国标准时间)] /article/detail/57853ec357e5443823a3922d
+SyntaxError: Unexpected token > in F:\上课内容笔记\node\自己的\fouth\weekend\lifeiblog\views\article\detail.html while compiling ejs
+    at Object.Template.compile (F:\上课内容笔记\node\自己的\fouth\weekend\lifeiblog\node_modules\ejs\lib\ejs.js:485:12)
+    at Object.compile (F:\上课内容笔记\node\自己的\fouth\weekend\lifeiblog\node_modules\ejs\lib\ejs.js:289:16)
+    at handleCache (F:\上课内容笔记\node\自己的\fouth\weekend\lifeiblog\node_modules\ejs\lib\ejs.js:148:16)
+    at View.exports.renderFile [as engine] (F:\上课内容笔记\node\自己的\fouth\weekend\lifeiblog\node_modules\ejs\lib\ejs.js:358:14)
+    at View.render (F:\上课内容笔记\node\自己的\fouth\weekend\lifeiblog\node_modules\express\lib\view.js:126:8)
+    at tryRender (F:\上课内容笔记\node\自己的\fouth\weekend\lifeiblog\node_modules\express\lib\application.js:639:10)
+    at EventEmitter.render (F:\上课内容笔记\node\自己的\fouth\weekend\lifeiblog\node_modules\express\lib\application.js:591:3)
+    at ServerResponse.render (F:\上课内容笔记\node\自己的\fouth\weekend\lifeiblog\node_modules\express\lib\response.js:961:7)
+    at F:\上课内容笔记\node\自己的\fouth\weekend\lifeiblog\routes\article.js:168:9
+    at Layer.handle [as handle_request] (F:\上课内容笔记\node\自己的\fouth\weekend\lifeiblog\node_modules\express\lib\router\layer.js:95:5)
+    at next (F:\上课内容笔记\node\自己的\fouth\weekend\lifeiblog\node_modules\express\lib\router\route.js:131:13)
+    at Route.dispatch (F:\上课内容笔记\node\自己的\fouth\weekend\lifeiblog\node_modules\express\lib\router\route.js:112:3)
+    at Layer.handle [as handle_request] (F:\上课内容笔记\node\自己的\fouth\weekend\lifeiblog\node_modules\express\lib\router\layer.js:95:5)
+    at F:\上课内容笔记\node\自己的\fouth\weekend\lifeiblog\node_modules\express\lib\router\index.js:277:22
+    at param (F:\上课内容笔记\node\自己的\fouth\weekend\lifeiblog\node_modules\express\lib\router\index.js:349:14)
+    at param (F:\上课内容笔记\node\自己的\fouth\weekend\lifeiblog\node_modules\express\lib\router\index.js:365:14)
+    at Function.process_params (F:\上课内容笔记\node\自己的\fouth\weekend\lifeiblog\node_modules\express\lib\router\index.js:410:3)
+    at next (F:\上课内容笔记\node\自己的\fouth\weekend\lifeiblog\node_modules\express\lib\router\index.js:271:10)
+    at Function.handle (F:\上课内容笔记\node\自己的\fouth\weekend\lifeiblog\node_modules\express\lib\router\index.js:176:3)
+    at router (F:\上课内容笔记\node\自己的\fouth\weekend\lifeiblog\node_modules\express\lib\router\index.js:46:12)
+    at Layer.handle [as handle_request] (F:\上课内容笔记\node\自己的\fouth\weekend\lifeiblog\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (F:\上课内容笔记\node\自己的\fouth\weekend\lifeiblog\node_modules\express\lib\router\index.js:312:13)
+[Wed Jul 13 2016 13:36:33 GMT+0800 (中国标准时间)] /article/detail/57853ec357e5443823a3922d
+SyntaxError: Unexpected token > in F:\上课内容笔记\node\自己的\fouth\weekend\lifeiblog\views\article\detail.html while compiling ejs
+    at Object.Template.compile (F:\上课内容笔记\node\自己的\fouth\weekend\lifeiblog\node_modules\ejs\lib\ejs.js:485:12)
+    at Object.compile (F:\上课内容笔记\node\自己的\fouth\weekend\lifeiblog\node_modules\ejs\lib\ejs.js:289:16)
+    at handleCache (F:\上课内容笔记\node\自己的\fouth\weekend\lifeiblog\node_modules\ejs\lib\ejs.js:148:16)
+    at View.exports.renderFile [as engine] (F:\上课内容笔记\node\自己的\fouth\weekend\lifeiblog\node_modules\ejs\lib\ejs.js:358:14)
+    at View.render (F:\上课内容笔记\node\自己的\fouth\weekend\lifeiblog\node_modules\express\lib\view.js:126:8)
+    at tryRender (F:\上课内容笔记\node\自己的\fouth\weekend\lifeiblog\node_modules\express\lib\application.js:639:10)
+    at EventEmitter.render (F:\上课内容笔记\node\自己的\fouth\weekend\lifeiblog\node_modules\express\lib\application.js:591:3)
+    at ServerResponse.render (F:\上课内容笔记\node\自己的\fouth\weekend\lifeiblog\node_modules\express\lib\response.js:961:7)
+    at F:\上课内容笔记\node\自己的\fouth\weekend\lifeiblog\routes\article.js:168:9
+    at Layer.handle [as handle_request] (F:\上课内容笔记\node\自己的\fouth\weekend\lifeiblog\node_modules\express\lib\router\layer.js:95:5)
+    at next (F:\上课内容笔记\node\自己的\fouth\weekend\lifeiblog\node_modules\express\lib\router\route.js:131:13)
+    at Route.dispatch (F:\上课内容笔记\node\自己的\fouth\weekend\lifeiblog\node_modules\express\lib\router\route.js:112:3)
+    at Layer.handle [as handle_request] (F:\上课内容笔记\node\自己的\fouth\weekend\lifeiblog\node_modules\express\lib\router\layer.js:95:5)
+    at F:\上课内容笔记\node\自己的\fouth\weekend\lifeiblog\node_modules\express\lib\router\index.js:277:22
+    at param (F:\上课内容笔记\node\自己的\fouth\weekend\lifeiblog\node_modules\express\lib\router\index.js:349:14)
+    at param (F:\上课内容笔记\node\自己的\fouth\weekend\lifeiblog\node_modules\express\lib\router\index.js:365:14)
+    at Function.process_params (F:\上课内容笔记\node\自己的\fouth\weekend\lifeiblog\node_modules\express\lib\router\index.js:410:3)
+    at next (F:\上课内容笔记\node\自己的\fouth\weekend\lifeiblog\node_modules\express\lib\router\index.js:271:10)
+    at Function.handle (F:\上课内容笔记\node\自己的\fouth\weekend\lifeiblog\node_modules\express\lib\router\index.js:176:3)
+    at router (F:\上课内容笔记\node\自己的\fouth\weekend\lifeiblog\node_modules\express\lib\router\index.js:46:12)
+    at Layer.handle [as handle_request] (F:\上课内容笔记\node\自己的\fouth\weekend\lifeiblog\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (F:\上课内容笔记\node\自己的\fouth\weekend\lifeiblog\node_modules\express\lib\router\index.js:312:13)
+[Wed Jul 13 2016 13:36:51 GMT+0800 (中国标准时间)] /article/detail/57853ec357e5443823a3922d
+SyntaxError: Unexpected token > in F:\上课内容笔记\node\自己的\fouth\weekend\lifeiblog\views\article\detail.html while compiling ejs
+    at Object.Template.compile (F:\上课内容笔记\node\自己的\fouth\weekend\lifeiblog\node_modules\ejs\lib\ejs.js:485:12)
+    at Object.compile (F:\上课内容笔记\node\自己的\fouth\weekend\lifeiblog\node_modules\ejs\lib\ejs.js:289:16)
+    at handleCache (F:\上课内容笔记\node\自己的\fouth\weekend\lifeiblog\node_modules\ejs\lib\ejs.js:148:16)
+    at View.exports.renderFile [as engine] (F:\上课内容笔记\node\自己的\fouth\weekend\lifeiblog\node_modules\ejs\lib\ejs.js:358:14)
+    at View.render (F:\上课内容笔记\node\自己的\fouth\weekend\lifeiblog\node_modules\express\lib\view.js:126:8)
+    at tryRender (F:\上课内容笔记\node\自己的\fouth\weekend\lifeiblog\node_modules\express\lib\application.js:639:10)
+    at EventEmitter.render (F:\上课内容笔记\node\自己的\fouth\weekend\lifeiblog\node_modules\express\lib\application.js:591:3)
+    at ServerResponse.render (F:\上课内容笔记\node\自己的\fouth\weekend\lifeiblog\node_modules\express\lib\response.js:961:7)
+    at F:\上课内容笔记\node\自己的\fouth\weekend\lifeiblog\routes\article.js:168:9
+    at Layer.handle [as handle_request] (F:\上课内容笔记\node\自己的\fouth\weekend\lifeiblog\node_modules\express\lib\router\layer.js:95:5)
+    at next (F:\上课内容笔记\node\自己的\fouth\weekend\lifeiblog\node_modules\express\lib\router\route.js:131:13)
+    at Route.dispatch (F:\上课内容笔记\node\自己的\fouth\weekend\lifeiblog\node_modules\express\lib\router\route.js:112:3)
+    at Layer.handle [as handle_request] (F:\上课内容笔记\node\自己的\fouth\weekend\lifeiblog\node_modules\express\lib\router\layer.js:95:5)
+    at F:\上课内容笔记\node\自己的\fouth\weekend\lifeiblog\node_modules\express\lib\router\index.js:277:22
+    at param (F:\上课内容笔记\node\自己的\fouth\weekend\lifeiblog\node_modules\express\lib\router\index.js:349:14)
+    at param (F:\上课内容笔记\node\自己的\fouth\weekend\lifeiblog\node_modules\express\lib\router\index.js:365:14)
+    at Function.process_params (F:\上课内容笔记\node\自己的\fouth\weekend\lifeiblog\node_modules\express\lib\router\index.js:410:3)
+    at next (F:\上课内容笔记\node\自己的\fouth\weekend\lifeiblog\node_modules\express\lib\router\index.js:271:10)
+    at Function.handle (F:\上课内容笔记\node\自己的\fouth\weekend\lifeiblog\node_modules\express\lib\router\index.js:176:3)
+    at router (F:\上课内容笔记\node\自己的\fouth\weekend\lifeiblog\node_modules\express\lib\router\index.js:46:12)
+    at Layer.handle [as handle_request] (F:\上课内容笔记\node\自己的\fouth\weekend\lifeiblog\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (F:\上课内容笔记\node\自己的\fouth\weekend\lifeiblog\node_modules\express\lib\router\index.js:312:13)
+[Wed Jul 13 2016 16:44:51 GMT+0800 (中国标准时间)] /article/detail/57820f003f01e5b817a1335d
+TypeError: F:/上课内容笔记/node/自己的/fouth/weekend/lifeiblog/views/include/header.html:23
+    21|         </div>
+    22| 
+ >> 23|         <div class="collapse navbar-collapse" id="menu">
+    24|             <ul class="nav navbar-nav">
+    25|                 <li class="active"><a href="/">首页</a></li>
+    26|                 <%if(user){%>
+
+Cannot read property 'forEach' of undefined
+    at eval (eval at <anonymous> (F:\上课内容笔记\node\自己的\fouth\weekend\lifeiblog\node_modules\ejs\lib\ejs.js:485:12), <anonymous>:63:29)
+    at returnedFn (F:\上课内容笔记\node\自己的\fouth\weekend\lifeiblog\node_modules\ejs\lib\ejs.js:514:17)
+    at View.exports.renderFile [as engine] (F:\上课内容笔记\node\自己的\fouth\weekend\lifeiblog\node_modules\ejs\lib\ejs.js:358:31)
+    at View.render (F:\上课内容笔记\node\自己的\fouth\weekend\lifeiblog\node_modules\express\lib\view.js:126:8)
+    at tryRender (F:\上课内容笔记\node\自己的\fouth\weekend\lifeiblog\node_modules\express\lib\application.js:639:10)
+    at EventEmitter.render (F:\上课内容笔记\node\自己的\fouth\weekend\lifeiblog\node_modules\express\lib\application.js:591:3)
+    at ServerResponse.render (F:\上课内容笔记\node\自己的\fouth\weekend\lifeiblog\node_modules\express\lib\response.js:961:7)
+    at F:\上课内容笔记\node\自己的\fouth\weekend\lifeiblog\routes\article.js:118:13
+    at F:\上课内容笔记\node\自己的\fouth\weekend\node_modules\async\dist\async.js:5293:13
+    at F:\上课内容笔记\node\自己的\fouth\weekend\node_modules\async\dist\async.js:396:20
+    at replenish (F:\上课内容笔记\node\自己的\fouth\weekend\node_modules\async\dist\async.js:858:28)
+    at F:\上课内容笔记\node\自己的\fouth\weekend\node_modules\async\dist\async.js:877:29
+    at F:\上课内容笔记\node\自己的\fouth\weekend\node_modules\async\dist\async.js:840:20
+    at F:\上课内容笔记\node\自己的\fouth\weekend\node_modules\async\dist\async.js:5290:17
+    at F:\上课内容笔记\node\自己的\fouth\weekend\node_modules\async\dist\async.js:339:31
+    at F:\上课内容笔记\node\自己的\fouth\weekend\lifeiblog\routes\article.js:109:13
+    at Query.<anonymous> (F:\上课内容笔记\node\自己的\fouth\weekend\node_modules\mongoose\lib\query.js:2181:28)
+    at F:\上课内容笔记\node\自己的\fouth\weekend\node_modules\kareem\index.js:259:21
+    at F:\上课内容笔记\node\自己的\fouth\weekend\node_modules\kareem\index.js:127:16
+    at _combinedTickCallback (internal/process/next_tick.js:67:7)
+    at process._tickCallback (internal/process/next_tick.js:98:9)
+[Wed Jul 13 2016 16:48:29 GMT+0800 (中国标准时间)] /article/detail/57820f003f01e5b817a1335d
+TypeError: F:/上课内容笔记/node/自己的/fouth/weekend/lifeiblog/views/include/header.html:23
+    21|         </div>
+    22| 
+ >> 23|         <div class="collapse navbar-collapse" id="menu">
+    24|             <ul class="nav navbar-nav">
+    25|                 <li class="active"><a href="/">首页</a></li>
+    26|                 <%if(user){%>
+
+Cannot read property 'forEach' of undefined
+    at eval (eval at <anonymous> (F:\上课内容笔记\node\自己的\fouth\weekend\lifeiblog\node_modules\ejs\lib\ejs.js:485:12), <anonymous>:63:29)
+    at returnedFn (F:\上课内容笔记\node\自己的\fouth\weekend\lifeiblog\node_modules\ejs\lib\ejs.js:514:17)
+    at View.exports.renderFile [as engine] (F:\上课内容笔记\node\自己的\fouth\weekend\lifeiblog\node_modules\ejs\lib\ejs.js:358:31)
+    at View.render (F:\上课内容笔记\node\自己的\fouth\weekend\lifeiblog\node_modules\express\lib\view.js:126:8)
+    at tryRender (F:\上课内容笔记\node\自己的\fouth\weekend\lifeiblog\node_modules\express\lib\application.js:639:10)
+    at EventEmitter.render (F:\上课内容笔记\node\自己的\fouth\weekend\lifeiblog\node_modules\express\lib\application.js:591:3)
+    at ServerResponse.render (F:\上课内容笔记\node\自己的\fouth\weekend\lifeiblog\node_modules\express\lib\response.js:961:7)
+    at F:\上课内容笔记\node\自己的\fouth\weekend\lifeiblog\routes\article.js:118:13
+    at F:\上课内容笔记\node\自己的\fouth\weekend\node_modules\async\dist\async.js:5293:13
+    at F:\上课内容笔记\node\自己的\fouth\weekend\node_modules\async\dist\async.js:396:20
+    at replenish (F:\上课内容笔记\node\自己的\fouth\weekend\node_modules\async\dist\async.js:858:28)
+    at F:\上课内容笔记\node\自己的\fouth\weekend\node_modules\async\dist\async.js:877:29
+    at F:\上课内容笔记\node\自己的\fouth\weekend\node_modules\async\dist\async.js:840:20
+    at F:\上课内容笔记\node\自己的\fouth\weekend\node_modules\async\dist\async.js:5290:17
+    at F:\上课内容笔记\node\自己的\fouth\weekend\node_modules\async\dist\async.js:339:31
+    at F:\上课内容笔记\node\自己的\fouth\weekend\lifeiblog\routes\article.js:109:13
+    at Query.<anonymous> (F:\上课内容笔记\node\自己的\fouth\weekend\node_modules\mongoose\lib\query.js:2181:28)
+    at F:\上课内容笔记\node\自己的\fouth\weekend\node_modules\kareem\index.js:259:21
+    at F:\上课内容笔记\node\自己的\fouth\weekend\node_modules\kareem\index.js:127:16
+    at _combinedTickCallback (internal/process/next_tick.js:67:7)
+    at process._tickCallback (internal/process/next_tick.js:98:9)
+[Wed Jul 13 2016 18:42:14 GMT+0800 (中国标准时间)] /article/add
+TypeError: Path must be a string. Received undefined
+    at assertPath (path.js:7:11)
+    at Object.join (path.js:466:7)
+    at F:\上课内容笔记\node\自己的\fouth\weekend\lifeiblog\routes\article.js:57:20
+    at Layer.handle [as handle_request] (F:\上课内容笔记\node\自己的\fouth\weekend\lifeiblog\node_modules\express\lib\router\layer.js:95:5)
+    at next (F:\上课内容笔记\node\自己的\fouth\weekend\lifeiblog\node_modules\express\lib\router\route.js:131:13)
+    at multerMiddleware (F:\上课内容笔记\node\自己的\fouth\weekend\node_modules\multer\lib\make-middleware.js:18:41)
+    at Layer.handle [as handle_request] (F:\上课内容笔记\node\自己的\fouth\weekend\lifeiblog\node_modules\express\lib\router\layer.js:95:5)
+    at next (F:\上课内容笔记\node\自己的\fouth\weekend\lifeiblog\node_modules\express\lib\router\route.js:131:13)
+    at Route.dispatch (F:\上课内容笔记\node\自己的\fouth\weekend\lifeiblog\node_modules\express\lib\router\route.js:112:3)
+    at Layer.handle [as handle_request] (F:\上课内容笔记\node\自己的\fouth\weekend\lifeiblog\node_modules\express\lib\router\layer.js:95:5)
+    at F:\上课内容笔记\node\自己的\fouth\weekend\lifeiblog\node_modules\express\lib\router\index.js:277:22
+    at Function.process_params (F:\上课内容笔记\node\自己的\fouth\weekend\lifeiblog\node_modules\express\lib\router\index.js:330:12)
+    at next (F:\上课内容笔记\node\自己的\fouth\weekend\lifeiblog\node_modules\express\lib\router\index.js:271:10)
+    at Function.handle (F:\上课内容笔记\node\自己的\fouth\weekend\lifeiblog\node_modules\express\lib\router\index.js:176:3)
+    at router (F:\上课内容笔记\node\自己的\fouth\weekend\lifeiblog\node_modules\express\lib\router\index.js:46:12)
+    at Layer.handle [as handle_request] (F:\上课内容笔记\node\自己的\fouth\weekend\lifeiblog\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (F:\上课内容笔记\node\自己的\fouth\weekend\lifeiblog\node_modules\express\lib\router\index.js:312:13)
+    at F:\上课内容笔记\node\自己的\fouth\weekend\lifeiblog\node_modules\express\lib\router\index.js:280:7
+    at Function.process_params (F:\上课内容笔记\node\自己的\fouth\weekend\lifeiblog\node_modules\express\lib\router\index.js:330:12)
+    at next (F:\上课内容笔记\node\自己的\fouth\weekend\lifeiblog\node_modules\express\lib\router\index.js:271:10)
+    at F:\上课内容笔记\node\自己的\fouth\weekend\lifeiblog\node_modules\express\lib\router\index.js:618:15
+    at next (F:\上课内容笔记\node\自己的\fouth\weekend\lifeiblog\node_modules\express\lib\router\index.js:256:14)
+[Wed Jul 13 2016 18:49:07 GMT+0800 (中国标准时间)] /article/add
+TypeError: Cannot read property 'filename' of undefined
+    at F:\上课内容笔记\node\自己的\fouth\weekend\lifeiblog\routes\article.js:109:77
+    at Layer.handle [as handle_request] (F:\上课内容笔记\node\自己的\fouth\weekend\lifeiblog\node_modules\express\lib\router\layer.js:95:5)
+    at next (F:\上课内容笔记\node\自己的\fouth\weekend\lifeiblog\node_modules\express\lib\router\route.js:131:13)
+    at multerMiddleware (F:\上课内容笔记\node\自己的\fouth\weekend\node_modules\multer\lib\make-middleware.js:18:41)
+    at Layer.handle [as handle_request] (F:\上课内容笔记\node\自己的\fouth\weekend\lifeiblog\node_modules\express\lib\router\layer.js:95:5)
+    at next (F:\上课内容笔记\node\自己的\fouth\weekend\lifeiblog\node_modules\express\lib\router\route.js:131:13)
+    at Route.dispatch (F:\上课内容笔记\node\自己的\fouth\weekend\lifeiblog\node_modules\express\lib\router\route.js:112:3)
+    at Layer.handle [as handle_request] (F:\上课内容笔记\node\自己的\fouth\weekend\lifeiblog\node_modules\express\lib\router\layer.js:95:5)
+    at F:\上课内容笔记\node\自己的\fouth\weekend\lifeiblog\node_modules\express\lib\router\index.js:277:22
+    at Function.process_params (F:\上课内容笔记\node\自己的\fouth\weekend\lifeiblog\node_modules\express\lib\router\index.js:330:12)
+    at next (F:\上课内容笔记\node\自己的\fouth\weekend\lifeiblog\node_modules\express\lib\router\index.js:271:10)
+    at Function.handle (F:\上课内容笔记\node\自己的\fouth\weekend\lifeiblog\node_modules\express\lib\router\index.js:176:3)
+    at router (F:\上课内容笔记\node\自己的\fouth\weekend\lifeiblog\node_modules\express\lib\router\index.js:46:12)
+    at Layer.handle [as handle_request] (F:\上课内容笔记\node\自己的\fouth\weekend\lifeiblog\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (F:\上课内容笔记\node\自己的\fouth\weekend\lifeiblog\node_modules\express\lib\router\index.js:312:13)
+    at F:\上课内容笔记\node\自己的\fouth\weekend\lifeiblog\node_modules\express\lib\router\index.js:280:7
+    at Function.process_params (F:\上课内容笔记\node\自己的\fouth\weekend\lifeiblog\node_modules\express\lib\router\index.js:330:12)
+    at next (F:\上课内容笔记\node\自己的\fouth\weekend\lifeiblog\node_modules\express\lib\router\index.js:271:10)
+    at F:\上课内容笔记\node\自己的\fouth\weekend\lifeiblog\node_modules\express\lib\router\index.js:618:15
+    at next (F:\上课内容笔记\node\自己的\fouth\weekend\lifeiblog\node_modules\express\lib\router\index.js:256:14)
+    at Function.handle (F:\上课内容笔记\node\自己的\fouth\weekend\lifeiblog\node_modules\express\lib\router\index.js:176:3)
+    at router (F:\上课内容笔记\node\自己的\fouth\weekend\lifeiblog\node_modules\express\lib\router\index.js:46:12)
+[Wed Jul 13 2016 18:50:56 GMT+0800 (中国标准时间)] /article/add
+TypeError: Path must be a string. Received undefined
+    at assertPath (path.js:7:11)
+    at Object.join (path.js:466:7)
+    at F:\上课内容笔记\node\自己的\fouth\weekend\lifeiblog\routes\article.js:57:20
+    at Layer.handle [as handle_request] (F:\上课内容笔记\node\自己的\fouth\weekend\lifeiblog\node_modules\express\lib\router\layer.js:95:5)
+    at next (F:\上课内容笔记\node\自己的\fouth\weekend\lifeiblog\node_modules\express\lib\router\route.js:131:13)
+    at multerMiddleware (F:\上课内容笔记\node\自己的\fouth\weekend\node_modules\multer\lib\make-middleware.js:18:41)
+    at Layer.handle [as handle_request] (F:\上课内容笔记\node\自己的\fouth\weekend\lifeiblog\node_modules\express\lib\router\layer.js:95:5)
+    at next (F:\上课内容笔记\node\自己的\fouth\weekend\lifeiblog\node_modules\express\lib\router\route.js:131:13)
+    at Route.dispatch (F:\上课内容笔记\node\自己的\fouth\weekend\lifeiblog\node_modules\express\lib\router\route.js:112:3)
+    at Layer.handle [as handle_request] (F:\上课内容笔记\node\自己的\fouth\weekend\lifeiblog\node_modules\express\lib\router\layer.js:95:5)
+    at F:\上课内容笔记\node\自己的\fouth\weekend\lifeiblog\node_modules\express\lib\router\index.js:277:22
+    at Function.process_params (F:\上课内容笔记\node\自己的\fouth\weekend\lifeiblog\node_modules\express\lib\router\index.js:330:12)
+    at next (F:\上课内容笔记\node\自己的\fouth\weekend\lifeiblog\node_modules\express\lib\router\index.js:271:10)
+    at Function.handle (F:\上课内容笔记\node\自己的\fouth\weekend\lifeiblog\node_modules\express\lib\router\index.js:176:3)
+    at router (F:\上课内容笔记\node\自己的\fouth\weekend\lifeiblog\node_modules\express\lib\router\index.js:46:12)
+    at Layer.handle [as handle_request] (F:\上课内容笔记\node\自己的\fouth\weekend\lifeiblog\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (F:\上课内容笔记\node\自己的\fouth\weekend\lifeiblog\node_modules\express\lib\router\index.js:312:13)
+    at F:\上课内容笔记\node\自己的\fouth\weekend\lifeiblog\node_modules\express\lib\router\index.js:280:7
+    at Function.process_params (F:\上课内容笔记\node\自己的\fouth\weekend\lifeiblog\node_modules\express\lib\router\index.js:330:12)
+    at next (F:\上课内容笔记\node\自己的\fouth\weekend\lifeiblog\node_modules\express\lib\router\index.js:271:10)
+    at F:\上课内容笔记\node\自己的\fouth\weekend\lifeiblog\node_modules\express\lib\router\index.js:618:15
+    at next (F:\上课内容笔记\node\自己的\fouth\weekend\lifeiblog\node_modules\express\lib\router\index.js:256:14)
+[Wed Jul 13 2016 18:57:40 GMT+0800 (中国标准时间)] /article/add
+ReferenceError: file is not defined
+    at F:\上课内容笔记\node\自己的\fouth\weekend\lifeiblog\routes\article.js:55:17
+    at Layer.handle [as handle_request] (F:\上课内容笔记\node\自己的\fouth\weekend\lifeiblog\node_modules\express\lib\router\layer.js:95:5)
+    at next (F:\上课内容笔记\node\自己的\fouth\weekend\lifeiblog\node_modules\express\lib\router\route.js:131:13)
+    at Immediate.<anonymous> (F:\上课内容笔记\node\自己的\fouth\weekend\node_modules\multer\lib\make-middleware.js:52:37)
+    at runCallback (timers.js:570:20)
+    at tryOnImmediate (timers.js:546:5)
+    at processImmediate [as _immediateCallback] (timers.js:525:5)
+[Wed Jul 13 2016 18:58:16 GMT+0800 (中国标准时间)] /article/add
+ReferenceError: file is not defined
+    at F:\上课内容笔记\node\自己的\fouth\weekend\lifeiblog\routes\article.js:55:17
+    at Layer.handle [as handle_request] (F:\上课内容笔记\node\自己的\fouth\weekend\lifeiblog\node_modules\express\lib\router\layer.js:95:5)
+    at next (F:\上课内容笔记\node\自己的\fouth\weekend\lifeiblog\node_modules\express\lib\router\route.js:131:13)
+    at Immediate.<anonymous> (F:\上课内容笔记\node\自己的\fouth\weekend\node_modules\multer\lib\make-middleware.js:52:37)
+    at runCallback (timers.js:570:20)
+    at tryOnImmediate (timers.js:546:5)
+    at processImmediate [as _immediateCallback] (timers.js:525:5)
+[Wed Jul 13 2016 18:59:56 GMT+0800 (中国标准时间)] /article/add
+TypeError: Path must be a string. Received undefined
+    at assertPath (path.js:7:11)
+    at Object.join (path.js:466:7)
+    at F:\上课内容笔记\node\自己的\fouth\weekend\lifeiblog\routes\article.js:57:20
+    at Layer.handle [as handle_request] (F:\上课内容笔记\node\自己的\fouth\weekend\lifeiblog\node_modules\express\lib\router\layer.js:95:5)
+    at next (F:\上课内容笔记\node\自己的\fouth\weekend\lifeiblog\node_modules\express\lib\router\route.js:131:13)
+    at Immediate.<anonymous> (F:\上课内容笔记\node\自己的\fouth\weekend\node_modules\multer\lib\make-middleware.js:52:37)
+    at runCallback (timers.js:570:20)
+    at tryOnImmediate (timers.js:546:5)
+    at processImmediate [as _immediateCallback] (timers.js:525:5)

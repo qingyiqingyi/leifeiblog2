@@ -1,0 +1,27 @@
+<%include ../include/header.html%>
+<%= title %>
+
+<form method="post" action="/user/reg">
+    <div class="form-group">
+        <label for="username">用户名</label>
+        <input name="username" type="text" class="form-control" id="username" placeholder="用户名">
+    </div>
+    <div class="form-group">
+        <label for="email">邮箱</label>
+        <input type="email" name="email" class="form-control" id="email" placeholder="邮箱">
+    </div>
+    <div class="form-group">
+        <label for="password">密码</label>
+        <input name="password" type="password" class="form-control" id="password" placeholder="密码">
+    </div>
+    <div class="form-group">
+        <label for="repassword">重复密码</label>
+        <input type="password" name="repassword" class="form-control" id="repassword" placeholder="重复密码">
+    </div>
+
+    <button type="submit" class="btn btn-default">提交</button>
+</form>
+
+<%include ../include/footer.html%>
+
+<!--placeHolder相当于没有的话我们就那现在这个代替-->
