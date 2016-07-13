@@ -11,7 +11,10 @@
             <a href="/article/detail/<%=article._id%>"><%=article.title%></a>
         </h4>
         <p><%-article.content%></p>
+        作者:<%=article.user.username%>
         <span>发表时间:<%=article.createAt.toLocaleString()%></span> <span>PV:<%=article.pv%></span>
+        阅读：<%= article.pv %>|
+        评论：<%= article.comments.length%>
     </div>
 </div>
 <%});%>

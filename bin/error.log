@@ -1045,3 +1045,189 @@ TypeError: Path must be a string. Received undefined
     at runCallback (timers.js:570:20)
     at tryOnImmediate (timers.js:546:5)
     at processImmediate [as _immediateCallback] (timers.js:525:5)
+[Wed Jul 13 2016 21:47:31 GMT+0800 (中国标准时间)] /article/detail/57862a09ccdd6ddc223e4f09
+TypeError: F:/上课内容笔记/node/自己的/fouth/weekend/lifeiblog/views/include/header.html:23
+    21|         </div>
+    22| 
+ >> 23|         <div class="collapse navbar-collapse" id="menu">
+    24|             <ul class="nav navbar-nav">
+    25|                 <li class="active"><a href="/">首页</a></li>
+    26|                 <%if(user){%>
+
+Cannot read property 'forEach' of undefined
+    at eval (eval at <anonymous> (F:\上课内容笔记\node\自己的\fouth\weekend\lifeiblog\node_modules\ejs\lib\ejs.js:485:12), <anonymous>:63:29)
+    at returnedFn (F:\上课内容笔记\node\自己的\fouth\weekend\lifeiblog\node_modules\ejs\lib\ejs.js:514:17)
+    at View.exports.renderFile [as engine] (F:\上课内容笔记\node\自己的\fouth\weekend\lifeiblog\node_modules\ejs\lib\ejs.js:358:31)
+    at View.render (F:\上课内容笔记\node\自己的\fouth\weekend\lifeiblog\node_modules\express\lib\view.js:126:8)
+    at tryRender (F:\上课内容笔记\node\自己的\fouth\weekend\lifeiblog\node_modules\express\lib\application.js:639:10)
+    at EventEmitter.render (F:\上课内容笔记\node\自己的\fouth\weekend\lifeiblog\node_modules\express\lib\application.js:591:3)
+    at ServerResponse.render (F:\上课内容笔记\node\自己的\fouth\weekend\lifeiblog\node_modules\express\lib\response.js:961:7)
+    at F:\上课内容笔记\node\自己的\fouth\weekend\lifeiblog\routes\article.js:122:13
+    at F:\上课内容笔记\node\自己的\fouth\weekend\node_modules\async\dist\async.js:5293:13
+    at F:\上课内容笔记\node\自己的\fouth\weekend\node_modules\async\dist\async.js:396:20
+    at replenish (F:\上课内容笔记\node\自己的\fouth\weekend\node_modules\async\dist\async.js:858:28)
+    at F:\上课内容笔记\node\自己的\fouth\weekend\node_modules\async\dist\async.js:877:29
+    at F:\上课内容笔记\node\自己的\fouth\weekend\node_modules\async\dist\async.js:840:20
+    at F:\上课内容笔记\node\自己的\fouth\weekend\node_modules\async\dist\async.js:5290:17
+    at F:\上课内容笔记\node\自己的\fouth\weekend\node_modules\async\dist\async.js:339:31
+    at F:\上课内容笔记\node\自己的\fouth\weekend\lifeiblog\routes\article.js:113:13
+    at Query.<anonymous> (F:\上课内容笔记\node\自己的\fouth\weekend\node_modules\mongoose\lib\query.js:2181:28)
+    at F:\上课内容笔记\node\自己的\fouth\weekend\node_modules\kareem\index.js:259:21
+    at F:\上课内容笔记\node\自己的\fouth\weekend\node_modules\kareem\index.js:127:16
+    at _combinedTickCallback (internal/process/next_tick.js:67:7)
+    at process._tickCallback (internal/process/next_tick.js:98:9)
+[Wed Jul 13 2016 21:47:38 GMT+0800 (中国标准时间)] /article/detail/57862a09ccdd6ddc223e4f09
+TypeError: F:/上课内容笔记/node/自己的/fouth/weekend/lifeiblog/views/include/header.html:23
+    21|         </div>
+    22| 
+ >> 23|         <div class="collapse navbar-collapse" id="menu">
+    24|             <ul class="nav navbar-nav">
+    25|                 <li class="active"><a href="/">首页</a></li>
+    26|                 <%if(user){%>
+
+Cannot read property 'forEach' of undefined
+    at eval (eval at <anonymous> (F:\上课内容笔记\node\自己的\fouth\weekend\lifeiblog\node_modules\ejs\lib\ejs.js:485:12), <anonymous>:63:29)
+    at returnedFn (F:\上课内容笔记\node\自己的\fouth\weekend\lifeiblog\node_modules\ejs\lib\ejs.js:514:17)
+    at View.exports.renderFile [as engine] (F:\上课内容笔记\node\自己的\fouth\weekend\lifeiblog\node_modules\ejs\lib\ejs.js:358:31)
+    at View.render (F:\上课内容笔记\node\自己的\fouth\weekend\lifeiblog\node_modules\express\lib\view.js:126:8)
+    at tryRender (F:\上课内容笔记\node\自己的\fouth\weekend\lifeiblog\node_modules\express\lib\application.js:639:10)
+    at EventEmitter.render (F:\上课内容笔记\node\自己的\fouth\weekend\lifeiblog\node_modules\express\lib\application.js:591:3)
+    at ServerResponse.render (F:\上课内容笔记\node\自己的\fouth\weekend\lifeiblog\node_modules\express\lib\response.js:961:7)
+    at F:\上课内容笔记\node\自己的\fouth\weekend\lifeiblog\routes\article.js:122:13
+    at F:\上课内容笔记\node\自己的\fouth\weekend\node_modules\async\dist\async.js:5293:13
+    at F:\上课内容笔记\node\自己的\fouth\weekend\node_modules\async\dist\async.js:396:20
+    at replenish (F:\上课内容笔记\node\自己的\fouth\weekend\node_modules\async\dist\async.js:858:28)
+    at F:\上课内容笔记\node\自己的\fouth\weekend\node_modules\async\dist\async.js:877:29
+    at F:\上课内容笔记\node\自己的\fouth\weekend\node_modules\async\dist\async.js:840:20
+    at F:\上课内容笔记\node\自己的\fouth\weekend\node_modules\async\dist\async.js:5290:17
+    at F:\上课内容笔记\node\自己的\fouth\weekend\node_modules\async\dist\async.js:339:31
+    at F:\上课内容笔记\node\自己的\fouth\weekend\lifeiblog\routes\article.js:113:13
+    at Query.<anonymous> (F:\上课内容笔记\node\自己的\fouth\weekend\node_modules\mongoose\lib\query.js:2181:28)
+    at F:\上课内容笔记\node\自己的\fouth\weekend\node_modules\kareem\index.js:259:21
+    at F:\上课内容笔记\node\自己的\fouth\weekend\node_modules\kareem\index.js:127:16
+    at _combinedTickCallback (internal/process/next_tick.js:67:7)
+    at process._tickCallback (internal/process/next_tick.js:98:9)
+[Wed Jul 13 2016 21:48:12 GMT+0800 (中国标准时间)] /article/detail/57862a09ccdd6ddc223e4f09
+TypeError: F:/上课内容笔记/node/自己的/fouth/weekend/lifeiblog/views/include/header.html:23
+    21|         </div>
+    22| 
+ >> 23|         <div class="collapse navbar-collapse" id="menu">
+    24|             <ul class="nav navbar-nav">
+    25|                 <li class="active"><a href="/">首页</a></li>
+    26|                 <%if(user){%>
+
+Cannot read property 'forEach' of undefined
+    at eval (eval at <anonymous> (F:\上课内容笔记\node\自己的\fouth\weekend\lifeiblog\node_modules\ejs\lib\ejs.js:485:12), <anonymous>:63:29)
+    at returnedFn (F:\上课内容笔记\node\自己的\fouth\weekend\lifeiblog\node_modules\ejs\lib\ejs.js:514:17)
+    at View.exports.renderFile [as engine] (F:\上课内容笔记\node\自己的\fouth\weekend\lifeiblog\node_modules\ejs\lib\ejs.js:358:31)
+    at View.render (F:\上课内容笔记\node\自己的\fouth\weekend\lifeiblog\node_modules\express\lib\view.js:126:8)
+    at tryRender (F:\上课内容笔记\node\自己的\fouth\weekend\lifeiblog\node_modules\express\lib\application.js:639:10)
+    at EventEmitter.render (F:\上课内容笔记\node\自己的\fouth\weekend\lifeiblog\node_modules\express\lib\application.js:591:3)
+    at ServerResponse.render (F:\上课内容笔记\node\自己的\fouth\weekend\lifeiblog\node_modules\express\lib\response.js:961:7)
+    at F:\上课内容笔记\node\自己的\fouth\weekend\lifeiblog\routes\article.js:122:13
+    at F:\上课内容笔记\node\自己的\fouth\weekend\node_modules\async\dist\async.js:5293:13
+    at F:\上课内容笔记\node\自己的\fouth\weekend\node_modules\async\dist\async.js:396:20
+    at replenish (F:\上课内容笔记\node\自己的\fouth\weekend\node_modules\async\dist\async.js:858:28)
+    at F:\上课内容笔记\node\自己的\fouth\weekend\node_modules\async\dist\async.js:877:29
+    at F:\上课内容笔记\node\自己的\fouth\weekend\node_modules\async\dist\async.js:840:20
+    at F:\上课内容笔记\node\自己的\fouth\weekend\node_modules\async\dist\async.js:5290:17
+    at F:\上课内容笔记\node\自己的\fouth\weekend\node_modules\async\dist\async.js:339:31
+    at F:\上课内容笔记\node\自己的\fouth\weekend\lifeiblog\routes\article.js:113:13
+    at Query.<anonymous> (F:\上课内容笔记\node\自己的\fouth\weekend\node_modules\mongoose\lib\query.js:2181:28)
+    at F:\上课内容笔记\node\自己的\fouth\weekend\node_modules\kareem\index.js:259:21
+    at F:\上课内容笔记\node\自己的\fouth\weekend\node_modules\kareem\index.js:127:16
+    at _combinedTickCallback (internal/process/next_tick.js:67:7)
+    at process._tickCallback (internal/process/next_tick.js:98:9)
+[Wed Jul 13 2016 21:56:47 GMT+0800 (中国标准时间)] /article/detail/578629a1ccdd6ddc223e4f07
+TypeError: F:/上课内容笔记/node/自己的/fouth/weekend/lifeiblog/views/include/header.html:23
+    21|         </div>
+    22| 
+ >> 23|         <div class="collapse navbar-collapse" id="menu">
+    24|             <ul class="nav navbar-nav">
+    25|                 <li class="active"><a href="/">首页</a></li>
+    26|                 <%if(user){%>
+
+Cannot read property 'forEach' of undefined
+    at eval (eval at <anonymous> (F:\上课内容笔记\node\自己的\fouth\weekend\lifeiblog\node_modules\ejs\lib\ejs.js:485:12), <anonymous>:63:29)
+    at returnedFn (F:\上课内容笔记\node\自己的\fouth\weekend\lifeiblog\node_modules\ejs\lib\ejs.js:514:17)
+    at View.exports.renderFile [as engine] (F:\上课内容笔记\node\自己的\fouth\weekend\lifeiblog\node_modules\ejs\lib\ejs.js:358:31)
+    at View.render (F:\上课内容笔记\node\自己的\fouth\weekend\lifeiblog\node_modules\express\lib\view.js:126:8)
+    at tryRender (F:\上课内容笔记\node\自己的\fouth\weekend\lifeiblog\node_modules\express\lib\application.js:639:10)
+    at EventEmitter.render (F:\上课内容笔记\node\自己的\fouth\weekend\lifeiblog\node_modules\express\lib\application.js:591:3)
+    at ServerResponse.render (F:\上课内容笔记\node\自己的\fouth\weekend\lifeiblog\node_modules\express\lib\response.js:961:7)
+    at F:\上课内容笔记\node\自己的\fouth\weekend\lifeiblog\routes\article.js:122:13
+    at F:\上课内容笔记\node\自己的\fouth\weekend\node_modules\async\dist\async.js:5293:13
+    at F:\上课内容笔记\node\自己的\fouth\weekend\node_modules\async\dist\async.js:396:20
+    at replenish (F:\上课内容笔记\node\自己的\fouth\weekend\node_modules\async\dist\async.js:858:28)
+    at F:\上课内容笔记\node\自己的\fouth\weekend\node_modules\async\dist\async.js:877:29
+    at F:\上课内容笔记\node\自己的\fouth\weekend\node_modules\async\dist\async.js:840:20
+    at F:\上课内容笔记\node\自己的\fouth\weekend\node_modules\async\dist\async.js:5290:17
+    at F:\上课内容笔记\node\自己的\fouth\weekend\node_modules\async\dist\async.js:339:31
+    at F:\上课内容笔记\node\自己的\fouth\weekend\lifeiblog\routes\article.js:113:13
+    at Query.<anonymous> (F:\上课内容笔记\node\自己的\fouth\weekend\node_modules\mongoose\lib\query.js:2181:28)
+    at F:\上课内容笔记\node\自己的\fouth\weekend\node_modules\kareem\index.js:259:21
+    at F:\上课内容笔记\node\自己的\fouth\weekend\node_modules\kareem\index.js:127:16
+    at _combinedTickCallback (internal/process/next_tick.js:67:7)
+    at process._tickCallback (internal/process/next_tick.js:98:9)
+[Wed Jul 13 2016 21:56:49 GMT+0800 (中国标准时间)] /article/detail/578629a1ccdd6ddc223e4f07
+TypeError: F:/上课内容笔记/node/自己的/fouth/weekend/lifeiblog/views/include/header.html:23
+    21|         </div>
+    22| 
+ >> 23|         <div class="collapse navbar-collapse" id="menu">
+    24|             <ul class="nav navbar-nav">
+    25|                 <li class="active"><a href="/">首页</a></li>
+    26|                 <%if(user){%>
+
+Cannot read property 'forEach' of undefined
+    at eval (eval at <anonymous> (F:\上课内容笔记\node\自己的\fouth\weekend\lifeiblog\node_modules\ejs\lib\ejs.js:485:12), <anonymous>:63:29)
+    at returnedFn (F:\上课内容笔记\node\自己的\fouth\weekend\lifeiblog\node_modules\ejs\lib\ejs.js:514:17)
+    at View.exports.renderFile [as engine] (F:\上课内容笔记\node\自己的\fouth\weekend\lifeiblog\node_modules\ejs\lib\ejs.js:358:31)
+    at View.render (F:\上课内容笔记\node\自己的\fouth\weekend\lifeiblog\node_modules\express\lib\view.js:126:8)
+    at tryRender (F:\上课内容笔记\node\自己的\fouth\weekend\lifeiblog\node_modules\express\lib\application.js:639:10)
+    at EventEmitter.render (F:\上课内容笔记\node\自己的\fouth\weekend\lifeiblog\node_modules\express\lib\application.js:591:3)
+    at ServerResponse.render (F:\上课内容笔记\node\自己的\fouth\weekend\lifeiblog\node_modules\express\lib\response.js:961:7)
+    at F:\上课内容笔记\node\自己的\fouth\weekend\lifeiblog\routes\article.js:122:13
+    at F:\上课内容笔记\node\自己的\fouth\weekend\node_modules\async\dist\async.js:5293:13
+    at F:\上课内容笔记\node\自己的\fouth\weekend\node_modules\async\dist\async.js:396:20
+    at replenish (F:\上课内容笔记\node\自己的\fouth\weekend\node_modules\async\dist\async.js:858:28)
+    at F:\上课内容笔记\node\自己的\fouth\weekend\node_modules\async\dist\async.js:877:29
+    at F:\上课内容笔记\node\自己的\fouth\weekend\node_modules\async\dist\async.js:840:20
+    at F:\上课内容笔记\node\自己的\fouth\weekend\node_modules\async\dist\async.js:5290:17
+    at F:\上课内容笔记\node\自己的\fouth\weekend\node_modules\async\dist\async.js:339:31
+    at F:\上课内容笔记\node\自己的\fouth\weekend\lifeiblog\routes\article.js:113:13
+    at Query.<anonymous> (F:\上课内容笔记\node\自己的\fouth\weekend\node_modules\mongoose\lib\query.js:2181:28)
+    at F:\上课内容笔记\node\自己的\fouth\weekend\node_modules\kareem\index.js:259:21
+    at F:\上课内容笔记\node\自己的\fouth\weekend\node_modules\kareem\index.js:127:16
+    at _combinedTickCallback (internal/process/next_tick.js:67:7)
+    at process._tickCallback (internal/process/next_tick.js:98:9)
+[Wed Jul 13 2016 21:57:12 GMT+0800 (中国标准时间)] /article/detail/578629a1ccdd6ddc223e4f07
+TypeError: F:/上课内容笔记/node/自己的/fouth/weekend/lifeiblog/views/include/header.html:23
+    21|         </div>
+    22| 
+ >> 23|         <div class="collapse navbar-collapse" id="menu">
+    24|             <ul class="nav navbar-nav">
+    25|                 <li class="active"><a href="/">首页</a></li>
+    26|                 <%if(user){%>
+
+Cannot read property 'forEach' of undefined
+    at eval (eval at <anonymous> (F:\上课内容笔记\node\自己的\fouth\weekend\lifeiblog\node_modules\ejs\lib\ejs.js:485:12), <anonymous>:63:29)
+    at returnedFn (F:\上课内容笔记\node\自己的\fouth\weekend\lifeiblog\node_modules\ejs\lib\ejs.js:514:17)
+    at View.exports.renderFile [as engine] (F:\上课内容笔记\node\自己的\fouth\weekend\lifeiblog\node_modules\ejs\lib\ejs.js:358:31)
+    at View.render (F:\上课内容笔记\node\自己的\fouth\weekend\lifeiblog\node_modules\express\lib\view.js:126:8)
+    at tryRender (F:\上课内容笔记\node\自己的\fouth\weekend\lifeiblog\node_modules\express\lib\application.js:639:10)
+    at EventEmitter.render (F:\上课内容笔记\node\自己的\fouth\weekend\lifeiblog\node_modules\express\lib\application.js:591:3)
+    at ServerResponse.render (F:\上课内容笔记\node\自己的\fouth\weekend\lifeiblog\node_modules\express\lib\response.js:961:7)
+    at F:\上课内容笔记\node\自己的\fouth\weekend\lifeiblog\routes\article.js:122:13
+    at F:\上课内容笔记\node\自己的\fouth\weekend\node_modules\async\dist\async.js:5293:13
+    at F:\上课内容笔记\node\自己的\fouth\weekend\node_modules\async\dist\async.js:396:20
+    at replenish (F:\上课内容笔记\node\自己的\fouth\weekend\node_modules\async\dist\async.js:858:28)
+    at F:\上课内容笔记\node\自己的\fouth\weekend\node_modules\async\dist\async.js:877:29
+    at F:\上课内容笔记\node\自己的\fouth\weekend\node_modules\async\dist\async.js:840:20
+    at F:\上课内容笔记\node\自己的\fouth\weekend\node_modules\async\dist\async.js:5290:17
+    at F:\上课内容笔记\node\自己的\fouth\weekend\node_modules\async\dist\async.js:339:31
+    at F:\上课内容笔记\node\自己的\fouth\weekend\lifeiblog\routes\article.js:113:13
+    at Query.<anonymous> (F:\上课内容笔记\node\自己的\fouth\weekend\node_modules\mongoose\lib\query.js:2181:28)
+    at F:\上课内容笔记\node\自己的\fouth\weekend\node_modules\kareem\index.js:259:21
+    at F:\上课内容笔记\node\自己的\fouth\weekend\node_modules\kareem\index.js:127:16
+    at _combinedTickCallback (internal/process/next_tick.js:67:7)
+    at process._tickCallback (internal/process/next_tick.js:98:9)

@@ -12,10 +12,10 @@ var storage = multer.diskStorage({
         cb(null, '../public/uploads')
     },
     filename: function (req, file, cb) {
-        cb(null, Date.now()+'.'+file.mimetype.slice(file.mimetype.indexOf('/')+1))
+        cb(null, Date.now() + '.' + file.mimetype.slice(file.mimetype.indexOf('/') + 1))
     }
 })
-var upload = multer({ storage:storage})
+var upload = multer({storage: storage})
 //创建一个路由
 var router = express.Router();
 //中间件写法
@@ -43,85 +43,63 @@ router.get('/list', function (req, res) {
                     pageSize: pageSize,
                     keyword: keyword,
                     totalPage: Math.ceil(count / pageSize)
-          })
+                })
         })
     })
 })
-router.get('/add', function (req, res) {
-    res.render('article/add',{title:'发表文章',article:{}});
-})
-router.post('/add',upload.single('img'), function (req,res) {
-    var article = req.body;
-
-    if(req.file){
-        article.img = path.join('/uploads',req.file.filename);
-    }
-    //请求体转成对象放在req.body上
-
-    var _id = article._id//得到文章的ID号在   <input name="_id" type="hidden" 隐藏着的
-    console.log(_id);
-    if (_id) {
-        var set = {title:article.title,content:article.content};
-        //if(req.file)
-        //    set.img = req.body.img;
-        Model('Article').update({_id: _id},
-            //$set是moongose的方法?
-            {
-                $set: set
-            }, function (error, doc) {
-                if (error) {
-                    req.flash('error', '更新文章失败');
-                    return res.redirect('back')
-                } else {
-                    req.flash('success', '棒棒哒!!成功');
-                    res.redirect('/')
-                }
-
-            })
-
-    } else {
-        //如果ID没有值表示是准备保存新的文章
-        //把当前登录的用户ID赋给user变量
-        article.user = req.session.user._id;
-       // delete article._id
-        //如果要保存的对象中有ID的话，那么mongodb不会帮你自动ID了
-        //delete article._id;
-        Model('Article').create(article, function (err, doc) {
-            console.log(doc);
-            if (err) {
-                req.flash('error', '发表文章失败');
-                return res.redirect('back')
-            } else {
-                req.flash('success', '干的漂亮成功');
-                return res.redirect('/')
-            }
-
-        })
-    }
-
-
-})
-
-// 登陆用户的id给user
 var async = require('async');
-//路径参数 把参数放在路径里面
-router.get('/detail/:_id', function (req, res) {
-    async.parallel([function (callback) {
-        Model('Article').findOne({_id: req.params._id}).populate('user').populate('comments.user').exec(function (err, article) {
-            if(article.content)
-            article.content = markdown.toHTML(article.content);
-            callback(err, article);
+router.get('/add', function (req, res) {
+    res.render('article/add', {title: '发表文章', article: {}});
+})
+router.post('/add', upload.single('img'),function (req, res) {
+    if(req.file){
+        req.body.img = path.join('/uploads',req.file.filename);
+    }
+    var _id = req.body._id;
+
+    if(_id){
+        var set = {title:req.body.title,content:req.body.content};
+        if(req.file)
+            set.img = req.body.img;
+        Model('Article').update({_id:_id},{$set:set},function(err,result){
+            if(err){
+                req.flash('error',err);
+                return res.redirect('back');
+            }
+            req.flash('success', '更新文章成功!');
+            res.redirect('/');//注册成功后返回主页
         });
-    }, function (callback) {
-        Model('Article').update({_id: req.params._id}, {$inc: {pv: 1}}, callback);
-    }], function (err, result) {
-        if (err) {
-            req.flash('error', err);
+    }else{
+        req.body.user = req.session.user._id;
+        delete req.body._id;
+        new Model('Article')(req.body).save(function(err,article){
+            if(err){
+                req.flash('error',err);
+                return res.redirect('/articles/add');
+            }
+            req.flash('success', '发表文章成功!');
+            res.redirect('/');//注册成功后返回主页
+        });
+    }
+});
+
+
+router.get('/detail/:_id', function (req, res) {
+    async.parallel([function(callback){
+        Model('Article').findOne({_id:req.params._id}).populate('user').populate('comments.user').exec(function(err,article){
+            //article.content = markdown.toHTML(article.content);
+            callback(err,article);
+        });
+    },function(callback){
+        Model('Article').update({_id:req.params._id},{$inc:{pv:1}},callback);
+    }],function(err,result){
+        if(err){
+            req.flash('error',err);
             res.redirect('back');
         }
-        res.render('article/detail', {title: '查看文章', article: result[0]});
+        res.render('article/detail',{title:'查看文章',article:result[0]});
     });
-})
+});
 
 router.get('/delete/:_id', function (req, res) {
     var _id = req.params._id;
@@ -141,6 +119,7 @@ router.get('/delete/:_id', function (req, res) {
 router.get('/update/:_id', function (req, res) {
     var _id = req.params._id;
     Model('Article').findById(_id, function (err, doc) {
+        console.log(doc);
         if (err) {
             req.flash('error', '失败')
             return res.redirect('back')
@@ -157,13 +136,13 @@ router.get('/update/:_id', function (req, res) {
     })
 
 })
-router.post('/comment',middleware.checkLogin, function (req, res) {
+router.post('/comment/:_id', middleware.checkLogin, function (req, res) {
     var user = req.session.user;
-    Model('Article').update({_id:req.body._id},
-        {$push:{comments:{user:user._id,content:req.body.content}}},
-        function(err,result){
-            if(err){
-                req.flash('error',err);
+    Model('Article').update({_id: req.body._id},
+        {$push: {comments: {user: user._id, content: req.body.content}}},
+        function (err, result) {
+            if (err) {
+                req.flash('error', err);
                 return res.redirect('back');
             }
             req.flash('success', '评论成功!');
